@@ -13,13 +13,13 @@
           {
             "type": "link",
             "label": "开始使用",
-            "href": "/mpflutter/docs/getting-started"
+            "href": "/docs/getting-started"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/mpflutter/docs/getting-started": "docs"
+    "/docs/getting-started": "docs"
   }
 }

@@ -16,7 +16,7 @@ const siteConfig = {
       {
         docs: {
           path: "../docs",
-          editUrl: "https://github.com/facebook/metro/edit/master/website",
+          editUrl: "https://github.com/mpflutter/mpflutter/edit/master/website",
           sidebarPath: require.resolve("./sidebars.json"),
         },
         theme: {
@@ -30,7 +30,7 @@ const siteConfig = {
   organizationName: "mpflutter",
   projectName: "mpflutter.github.io",
   url: "https://mpflutter.github.io",
-  baseUrl: "/mpflutter/",
+  baseUrl: "/",
   favicon: "img/favicon.png",
   themeConfig: {
     navbar: {

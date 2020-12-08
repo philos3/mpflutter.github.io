@@ -6,8 +6,8 @@
   "description": "软件要求",
   "source": "@site/../docs/GettingStarted.md",
   "slug": "/getting-started",
-  "permalink": "/mpflutter/docs/getting-started",
-  "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/GettingStarted.md",
+  "permalink": "/docs/getting-started",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/GettingStarted.md",
   "version": "current",
   "sidebar": "docs"
 }

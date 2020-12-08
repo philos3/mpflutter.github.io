@@ -1,9 +1,9 @@
 {
-  "/mpflutter/-939": {
+  "/-deb": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   },
-  "/mpflutter/blog-1f3": {
+  "/blog-c34": {
     "component": "a6aa9e1f",
     "sidebar": "1737ab24",
     "items": [
@@ -11,34 +11,34 @@
         "content": "e80f2db9"
       }
     ],
-    "metadata": "d843d623"
+    "metadata": "b2b675dd"
   },
-  "/mpflutter/blog/2020/12/08/approaching-ca3": {
+  "/blog/2020/12/08/approaching-f53": {
     "component": "ccc49370",
     "sidebar": "1737ab24",
     "content": "7986546b"
   },
-  "/mpflutter/help/-779": {
+  "/help/-6dc": {
     "component": "78e9b454",
     "config": "5e9f5e1a"
   },
-  "/mpflutter/docs-be2": {
+  "/docs-de7": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/mpflutter/docs/api-26b": {
+  "/docs/api-65c": {
     "component": "17896441",
     "content": "fc1f0afe"
   },
-  "/mpflutter/docs/concepts-2ac": {
+  "/docs/concepts-4ea": {
     "component": "17896441",
     "content": "c026fe4c"
   },
-  "/mpflutter/docs/getting-started-35e": {
+  "/docs/getting-started-6e3": {
     "component": "17896441",
     "content": "163e71e1"
   },
-  "/mpflutter/docs/troubleshooting-269": {
+  "/docs/troubleshooting-b74": {
     "component": "17896441",
     "content": "ba92a0db"
   }

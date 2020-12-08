@@ -22,17 +22,17 @@ const contents = [
   {
     content:
       '原汁原味地保留 Flutter 秒级、有状态的热重载功能，真正做到所见即所得。',
-    image: '/metro/img/content/high-speed-train.png',
+    image: './img/content/high-speed-train.png',
     title: '快速',
   },
   {
     content: '裁去不必要的 Flutter 渲染层，JS 产物更轻量，运行更流畅。',
-    image: '/metro/img/content/scales.png',
+    image: './img/content/scales.png',
     title: '轻量',
   },
   {
     content: '原样保留 Flutter 工具链，毋需更改编码工具、习惯，一行命令即可开始使用。',
-    image: '/metro/img/content/atom.png',
+    image: './img/content/atom.png',
     title: '易用',
   },
 ];

@@ -3,48 +3,48 @@ import React from 'react';
 import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
 {
-  path: '/mpflutter/',
-  component: ComponentCreator('/mpflutter/','939'),
+  path: '/',
+  component: ComponentCreator('/','deb'),
   exact: true,
 },
 {
-  path: '/mpflutter/blog',
-  component: ComponentCreator('/mpflutter/blog','1f3'),
+  path: '/blog',
+  component: ComponentCreator('/blog','c34'),
   exact: true,
 },
 {
-  path: '/mpflutter/blog/2020/12/08/approaching',
-  component: ComponentCreator('/mpflutter/blog/2020/12/08/approaching','ca3'),
+  path: '/blog/2020/12/08/approaching',
+  component: ComponentCreator('/blog/2020/12/08/approaching','f53'),
   exact: true,
 },
 {
-  path: '/mpflutter/help/',
-  component: ComponentCreator('/mpflutter/help/','779'),
+  path: '/help/',
+  component: ComponentCreator('/help/','6dc'),
   exact: true,
 },
 {
-  path: '/mpflutter/docs',
-  component: ComponentCreator('/mpflutter/docs','be2'),
+  path: '/docs',
+  component: ComponentCreator('/docs','de7'),
   
   routes: [
 {
-  path: '/mpflutter/docs/api',
-  component: ComponentCreator('/mpflutter/docs/api','26b'),
+  path: '/docs/api',
+  component: ComponentCreator('/docs/api','65c'),
   exact: true,
 },
 {
-  path: '/mpflutter/docs/concepts',
-  component: ComponentCreator('/mpflutter/docs/concepts','2ac'),
+  path: '/docs/concepts',
+  component: ComponentCreator('/docs/concepts','4ea'),
   exact: true,
 },
 {
-  path: '/mpflutter/docs/getting-started',
-  component: ComponentCreator('/mpflutter/docs/getting-started','35e'),
+  path: '/docs/getting-started',
+  component: ComponentCreator('/docs/getting-started','6e3'),
   exact: true,
 },
 {
-  path: '/mpflutter/docs/troubleshooting',
-  component: ComponentCreator('/mpflutter/docs/troubleshooting','269'),
+  path: '/docs/troubleshooting',
+  component: ComponentCreator('/docs/troubleshooting','b74'),
   exact: true,
 },
 ]
