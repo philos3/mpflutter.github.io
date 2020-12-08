@@ -6,7 +6,7 @@
   "description": "了解 MPFlutter",
   "source": "@site/../docs/Concepts.md",
   "slug": "/concepts",
-  "permalink": "/docs/concepts",
+  "permalink": "/public/docs/concepts",
   "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Concepts.md",
   "version": "current"
 }

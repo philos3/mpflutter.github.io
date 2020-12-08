@@ -5,7 +5,7 @@
   "title": "Troubleshooting",
   "source": "@site/../docs/Troubleshooting.md",
   "slug": "/troubleshooting",
-  "permalink": "/docs/troubleshooting",
+  "permalink": "/public/docs/troubleshooting",
   "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Troubleshooting.md",
   "version": "current"
 }

@@ -1,9 +1,9 @@
 {
-  "/-deb": {
+  "/public/-fb4": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   },
-  "/blog-c34": {
+  "/public/blog-314": {
     "component": "a6aa9e1f",
     "sidebar": "1737ab24",
     "items": [
@@ -11,34 +11,34 @@
         "content": "e80f2db9"
       }
     ],
-    "metadata": "b2b675dd"
+    "metadata": "93952773"
   },
-  "/blog/2020/12/08/approaching-f53": {
+  "/public/blog/2020/12/08/approaching-5d8": {
     "component": "ccc49370",
     "sidebar": "1737ab24",
     "content": "7986546b"
   },
-  "/help/-6dc": {
+  "/public/help/-738": {
     "component": "78e9b454",
     "config": "5e9f5e1a"
   },
-  "/docs-de7": {
+  "/public/docs-be8": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/docs/api-65c": {
+  "/public/docs/api-143": {
     "component": "17896441",
     "content": "fc1f0afe"
   },
-  "/docs/concepts-4ea": {
+  "/public/docs/concepts-cb1": {
     "component": "17896441",
     "content": "c026fe4c"
   },
-  "/docs/getting-started-6e3": {
+  "/public/docs/getting-started-bb6": {
     "component": "17896441",
     "content": "163e71e1"
   },
-  "/docs/troubleshooting-b74": {
+  "/public/docs/troubleshooting-e3b": {
     "component": "17896441",
     "content": "ba92a0db"
   }

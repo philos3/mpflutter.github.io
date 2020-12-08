@@ -3,48 +3,48 @@ import React from 'react';
 import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
 {
-  path: '/',
-  component: ComponentCreator('/','deb'),
+  path: '/public/',
+  component: ComponentCreator('/public/','fb4'),
   exact: true,
 },
 {
-  path: '/blog',
-  component: ComponentCreator('/blog','c34'),
+  path: '/public/blog',
+  component: ComponentCreator('/public/blog','314'),
   exact: true,
 },
 {
-  path: '/blog/2020/12/08/approaching',
-  component: ComponentCreator('/blog/2020/12/08/approaching','f53'),
+  path: '/public/blog/2020/12/08/approaching',
+  component: ComponentCreator('/public/blog/2020/12/08/approaching','5d8'),
   exact: true,
 },
 {
-  path: '/help/',
-  component: ComponentCreator('/help/','6dc'),
+  path: '/public/help/',
+  component: ComponentCreator('/public/help/','738'),
   exact: true,
 },
 {
-  path: '/docs',
-  component: ComponentCreator('/docs','de7'),
+  path: '/public/docs',
+  component: ComponentCreator('/public/docs','be8'),
   
   routes: [
 {
-  path: '/docs/api',
-  component: ComponentCreator('/docs/api','65c'),
+  path: '/public/docs/api',
+  component: ComponentCreator('/public/docs/api','143'),
   exact: true,
 },
 {
-  path: '/docs/concepts',
-  component: ComponentCreator('/docs/concepts','4ea'),
+  path: '/public/docs/concepts',
+  component: ComponentCreator('/public/docs/concepts','cb1'),
   exact: true,
 },
 {
-  path: '/docs/getting-started',
-  component: ComponentCreator('/docs/getting-started','6e3'),
+  path: '/public/docs/getting-started',
+  component: ComponentCreator('/public/docs/getting-started','bb6'),
   exact: true,
 },
 {
-  path: '/docs/troubleshooting',
-  component: ComponentCreator('/docs/troubleshooting','b74'),
+  path: '/public/docs/troubleshooting',
+  component: ComponentCreator('/public/docs/troubleshooting','e3b'),
   exact: true,
 },
 ]

@@ -19,7 +19,7 @@ export default {
   "organizationName": "mpflutter",
   "projectName": "mpflutter.github.io",
   "url": "https://mpflutter.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/public/",
   "favicon": "img/favicon.png",
   "themeConfig": {
     "navbar": {
