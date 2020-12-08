@@ -30,7 +30,7 @@ const siteConfig = {
   organizationName: "mpflutter",
   projectName: "mpflutter.github.io",
   url: "https://mpflutter.github.io",
-  baseUrl: "/public/",
+  baseUrl: "/",
   favicon: "img/favicon.png",
   themeConfig: {
     navbar: {
