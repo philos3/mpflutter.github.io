@@ -1,0 +1,21 @@
+{
+  "unversionedId": "caching",
+  "id": "caching",
+  "isDocsHomePage": false,
+  "title": "Caching",
+  "description": "Metro has a multi-layered cache: you can set up multiple caches to be used by Metro instead of one. This has several advantages, on this page we will explain how the caches work.",
+  "source": "@site/../docs/Caching.md",
+  "slug": "/caching",
+  "permalink": "/metro/docs/caching",
+  "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/Caching.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Bundling",
+    "permalink": "/metro/docs/bundling"
+  },
+  "next": {
+    "title": "API",
+    "permalink": "/metro/docs/api"
+  }
+}

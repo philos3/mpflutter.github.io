@@ -1,0 +1,21 @@
+{
+  "unversionedId": "cli",
+  "id": "cli",
+  "isDocsHomePage": false,
+  "title": "Metro CLI Options",
+  "description": "The metro command line runner has a number of useful options. You can run `metro",
+  "source": "@site/../docs/CLI.md",
+  "slug": "/cli",
+  "permalink": "/metro/docs/cli",
+  "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/CLI.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Configuring Metro",
+    "permalink": "/metro/docs/configuration"
+  },
+  "next": {
+    "title": "Troubleshooting",
+    "permalink": "/metro/docs/troubleshooting"
+  }
+}

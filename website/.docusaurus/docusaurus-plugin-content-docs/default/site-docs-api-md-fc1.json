@@ -1,0 +1,12 @@
+{
+  "unversionedId": "api",
+  "id": "api",
+  "isDocsHomePage": false,
+  "title": "API",
+  "description": "API",
+  "source": "@site/../docs/API.md",
+  "slug": "/api",
+  "permalink": "/mpflutter/docs/api",
+  "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/API.md",
+  "version": "current"
+}

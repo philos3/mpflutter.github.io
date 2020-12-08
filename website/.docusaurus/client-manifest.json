@@ -1,0 +1,323 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "16": [
+      0,
+      1,
+      5,
+      16
+    ],
+    "common": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      0
+    ],
+    "styles": [
+      0,
+      4,
+      5,
+      10,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      1
+    ],
+    "@site/../docs/GettingStarted.md": [
+      0,
+      2
+    ],
+    "/Users/saiakirahui/Documents/mpflutter/site/website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json": [
+      3
+    ],
+    "@theme/DocItem": [
+      0,
+      1,
+      4
+    ],
+    "@site/src/pages/help/index.js": [
+      0,
+      1,
+      16,
+      5
+    ],
+    "@site/blog/2020-12-08-approaching.md": [
+      0,
+      6
+    ],
+    "~docs/default/version-current-metadata-prop-751.json": [
+      7
+    ],
+    "@site/../docs/Troubleshooting.md": [
+      0,
+      8
+    ],
+    "@site/../docs/Concepts.md": [
+      0,
+      9
+    ],
+    "@site/src/pages/index.js": [
+      0,
+      1,
+      10
+    ],
+    "~blog/default/mpflutter-blog-076.json": [
+      11
+    ],
+    "@site/blog/2020-12-08-approaching.md?truncated=true": [
+      0,
+      12
+    ],
+    "@site/../docs/API.md": [
+      0,
+      13
+    ],
+    "@generated/docusaurus.config": [
+      1,
+      15,
+      14
+    ],
+    "main": [
+      1,
+      15,
+      14
+    ],
+    "runtime~main": [
+      1,
+      14,
+      15
+    ],
+    "@theme/BlogPostPage": [
+      0,
+      1,
+      17
+    ],
+    "@theme/BlogListPage": [
+      0,
+      1,
+      18
+    ],
+    "@theme/DocPage": [
+      0,
+      1,
+      20
+    ],
+    "@theme/NotFound": [
+      0,
+      1,
+      20
+    ]
+  },
+  "assets": {
+    "0": {
+      "js": [
+        {
+          "file": "common.9cc99946.js",
+          "hash": "4e78e35b487dbd276a76",
+          "publicPath": "/mpflutter/common.9cc99946.js"
+        }
+      ]
+    },
+    "1": {
+      "css": [
+        {
+          "file": "styles.c5030d16.css",
+          "hash": "3b36954f0a41ff1c3c16",
+          "publicPath": "/mpflutter/styles.c5030d16.css"
+        }
+      ],
+      "js": [
+        {
+          "file": "styles.695d7836.js",
+          "hash": "3b36954f0a41ff1c3c16",
+          "publicPath": "/mpflutter/styles.695d7836.js"
+        }
+      ]
+    },
+    "2": {
+      "js": [
+        {
+          "file": "163e71e1.07c0c119.js",
+          "hash": "0444766df46001ce4ba5",
+          "publicPath": "/mpflutter/163e71e1.07c0c119.js"
+        }
+      ]
+    },
+    "3": {
+      "js": [
+        {
+          "file": "1737ab24.561e3db3.js",
+          "hash": "d0eb70774804c8d9ee7c",
+          "publicPath": "/mpflutter/1737ab24.561e3db3.js"
+        }
+      ]
+    },
+    "4": {
+      "js": [
+        {
+          "file": "17896441.bac86e45.js",
+          "hash": "81edb73ba62214836b40",
+          "publicPath": "/mpflutter/17896441.bac86e45.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "78e9b454.84cf933e.js",
+          "hash": "33cff3a35a86cf53ae65",
+          "publicPath": "/mpflutter/78e9b454.84cf933e.js"
+        }
+      ]
+    },
+    "6": {
+      "js": [
+        {
+          "file": "7986546b.5a19828a.js",
+          "hash": "45e2038d78c3fe32eec4",
+          "publicPath": "/mpflutter/7986546b.5a19828a.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "935f2afb.98116f93.js",
+          "hash": "432d602c3f37d6d6e255",
+          "publicPath": "/mpflutter/935f2afb.98116f93.js"
+        }
+      ]
+    },
+    "8": {
+      "js": [
+        {
+          "file": "ba92a0db.c4a8f706.js",
+          "hash": "ce104b7d1be80aea6cfb",
+          "publicPath": "/mpflutter/ba92a0db.c4a8f706.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "c026fe4c.72a5a3fd.js",
+          "hash": "2be651f6e594be568342",
+          "publicPath": "/mpflutter/c026fe4c.72a5a3fd.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "c4f5d8e4.dc2304bf.js",
+          "hash": "bd9af9f3e767998af611",
+          "publicPath": "/mpflutter/c4f5d8e4.dc2304bf.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "d843d623.b9234c4b.js",
+          "hash": "61484746c81f3bf5b631",
+          "publicPath": "/mpflutter/d843d623.b9234c4b.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "e80f2db9.935e8a18.js",
+          "hash": "f611751d0c11132a3a23",
+          "publicPath": "/mpflutter/e80f2db9.935e8a18.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "fc1f0afe.ef511e6b.js",
+          "hash": "a59e2c6d74535d66f8f9",
+          "publicPath": "/mpflutter/fc1f0afe.ef511e6b.js"
+        }
+      ]
+    },
+    "14": {
+      "js": [
+        {
+          "file": "main.0215093e.js",
+          "hash": "4d4f8a7d8ef169b104c5",
+          "publicPath": "/mpflutter/main.0215093e.js"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "runtime~main.d73be91c.js",
+          "hash": "d22fb5c1edbd92a4f41e",
+          "publicPath": "/mpflutter/runtime~main.d73be91c.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "16.76aea4ff.js",
+          "hash": "a8def772152ff5b93f57",
+          "publicPath": "/mpflutter/16.76aea4ff.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "17.ef6af721.js",
+          "hash": "a4438da2321d34071a17",
+          "publicPath": "/mpflutter/17.ef6af721.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "18.4a99c2aa.js",
+          "hash": "3da379efd6d574317045",
+          "publicPath": "/mpflutter/18.4a99c2aa.js"
+        }
+      ]
+    },
+    "20": {
+      "js": [
+        {
+          "file": "19.c2263d85.js",
+          "hash": "ed9f983b40d99ce06e1b",
+          "publicPath": "/mpflutter/19.c2263d85.js"
+        },
+        {
+          "file": "20.30baf511.js",
+          "hash": "fe5541372465d4c1204e",
+          "publicPath": "/mpflutter/20.30baf511.js"
+        }
+      ]
+    }
+  }
+}

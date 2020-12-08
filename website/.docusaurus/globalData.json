@@ -1,0 +1,35 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/mpflutter/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/mpflutter/docs",
+          "mainDocId": "getting-started",
+          "docs": [
+            {
+              "id": "api",
+              "path": "/mpflutter/docs/api"
+            },
+            {
+              "id": "concepts",
+              "path": "/mpflutter/docs/concepts"
+            },
+            {
+              "id": "getting-started",
+              "path": "/mpflutter/docs/getting-started",
+              "sidebar": "docs"
+            },
+            {
+              "id": "troubleshooting",
+              "path": "/mpflutter/docs/troubleshooting"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
