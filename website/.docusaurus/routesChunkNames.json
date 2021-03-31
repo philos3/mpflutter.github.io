@@ -1,71 +1,49 @@
 {
   "/zh/-9c2": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---zh-5-e-9-8e9"
-  },
-  "/zh/__docusaurus/debug-a9f": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/zh/__docusaurus/debug/config-d38": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/zh/__docusaurus/debug/content-b3d": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---zh-docusaurus-debug-content-246-c58"
-  },
-  "/zh/__docusaurus/debug/globalData-bfe": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/zh/__docusaurus/debug/metadata-0ca": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/zh/__docusaurus/debug/registry-ffc": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/zh/__docusaurus/debug/routes-c25": {
-    "component": "component---theme-debug-routes-946-699"
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
   },
   "/zh/blog-1c0": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---zh-blog-173-fee",
+    "component": "a6aa9e1f",
+    "sidebar": "1737ab24",
     "items": [
       {
-        "content": "content---zh-bloge-80-8f2"
+        "content": "e80f2db9"
       }
     ],
-    "metadata": "metadata---zh-blog-3-a-3-59c"
+    "metadata": "3a332aed"
   },
   "/zh/blog/2020/12/08/approaching-073": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---zh-blog-173-fee",
-    "content": "content---zh-blog-2020-12-08-approaching-798-13e"
+    "component": "ccc49370",
+    "sidebar": "1737ab24",
+    "content": "7986546b"
   },
   "/zh/help/-110": {
-    "component": "component---site-src-pages-help-index-js-78-e-dbe",
-    "config": "config---zh-5-e-9-8e9"
+    "component": "78e9b454",
+    "config": "5e9f5e1a"
   },
   "/zh/docs-3d8": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---zh-docs-935-310"
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/zh/docs/api-334": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---zh-docs-apifc-1-2c0"
+    "component": "17896441",
+    "content": "fc1f0afe"
   },
   "/zh/docs/compare-a9d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---zh-docs-compare-831-8b7"
+    "component": "17896441",
+    "content": "831670d9"
   },
   "/zh/docs/concepts-d4d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---zh-docs-conceptsc-02-b80"
+    "component": "17896441",
+    "content": "c026fe4c"
   },
   "/zh/docs/getting-started-ed7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---zh-docs-getting-started-163-fb4"
+    "component": "17896441",
+    "content": "163e71e1"
   },
   "/zh/docs/troubleshooting-310": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---zh-docs-troubleshootingba-9-4e0"
+    "component": "17896441",
+    "content": "ba92a0db"
   }
 }

@@ -16,17 +16,27 @@
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "Introduction",
+                "label": "基础",
                 "items": [
                   {
                     "type": "doc",
                     "id": "getting-started"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "concepts"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "compare"
                   }
                 ]
               }
             ]
           },
           "permalinkToSidebar": {
+            "/zh/docs/compare": "docs",
+            "/zh/docs/concepts": "docs",
             "/zh/docs/getting-started": "docs"
           },
           "docs": [
@@ -52,32 +62,50 @@
               "slug": "/compare",
               "permalink": "/zh/docs/compare",
               "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Compare.md",
-              "version": "current"
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "介绍",
+                "permalink": "/zh/docs/concepts"
+              }
             },
             {
               "unversionedId": "concepts",
               "id": "concepts",
               "isDocsHomePage": false,
-              "title": "MPFlutter 是什么",
+              "title": "介绍",
               "description": "MPFlutter 是一套用于构建 Web 和 小程序 应用的开发框架。",
               "source": "@site/../docs/Concepts.md",
               "slug": "/concepts",
               "permalink": "/zh/docs/concepts",
               "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Concepts.md",
-              "version": "current"
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "安装",
+                "permalink": "/zh/docs/getting-started"
+              },
+              "next": {
+                "title": "对比其它方案",
+                "permalink": "/zh/docs/compare"
+              }
             },
             {
               "unversionedId": "getting-started",
               "id": "getting-started",
               "isDocsHomePage": false,
-              "title": "开始使用",
+              "title": "安装",
               "description": "软件要求",
               "source": "@site/../docs/GettingStarted.md",
               "slug": "/getting-started",
               "permalink": "/zh/docs/getting-started",
               "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/GettingStarted.md",
               "version": "current",
-              "sidebar": "docs"
+              "sidebar": "docs",
+              "next": {
+                "title": "介绍",
+                "permalink": "/zh/docs/concepts"
+              }
             },
             {
               "unversionedId": "troubleshooting",

@@ -16,11 +16,13 @@
             },
             {
               "id": "compare",
-              "path": "/zh/docs/compare"
+              "path": "/zh/docs/compare",
+              "sidebar": "docs"
             },
             {
               "id": "concepts",
-              "path": "/zh/docs/concepts"
+              "path": "/zh/docs/concepts",
+              "sidebar": "docs"
             },
             {
               "id": "getting-started",

@@ -8,18 +8,30 @@
       {
         "collapsed": true,
         "type": "category",
-        "label": "Introduction",
+        "label": "基础",
         "items": [
           {
             "type": "link",
-            "label": "开始使用",
+            "label": "安装",
             "href": "/zh/docs/getting-started"
+          },
+          {
+            "type": "link",
+            "label": "介绍",
+            "href": "/zh/docs/concepts"
+          },
+          {
+            "type": "link",
+            "label": "对比其它方案",
+            "href": "/zh/docs/compare"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
+    "/zh/docs/compare": "docs",
+    "/zh/docs/concepts": "docs",
     "/zh/docs/getting-started": "docs"
   }
 }

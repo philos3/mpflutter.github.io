@@ -1,7 +1,9 @@
 {
   "docs": {
-    "Introduction": [
-      "getting-started"
+    "基础": [
+      "getting-started",
+      "concepts",
+      "compare"
     ]
   }
 }

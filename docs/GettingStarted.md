@@ -1,6 +1,6 @@
 ---
 id: getting-started
-title: 开始使用
+title: 安装
 ---
 
 ## 软件要求

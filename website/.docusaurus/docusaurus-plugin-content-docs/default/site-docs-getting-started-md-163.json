@@ -2,12 +2,16 @@
   "unversionedId": "getting-started",
   "id": "getting-started",
   "isDocsHomePage": false,
-  "title": "开始使用",
+  "title": "安装",
   "description": "软件要求",
   "source": "@site/../docs/GettingStarted.md",
   "slug": "/getting-started",
   "permalink": "/zh/docs/getting-started",
   "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/GettingStarted.md",
   "version": "current",
-  "sidebar": "docs"
+  "sidebar": "docs",
+  "next": {
+    "title": "介绍",
+    "permalink": "/zh/docs/concepts"
+  }
 }

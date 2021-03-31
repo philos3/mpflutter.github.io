@@ -2,11 +2,20 @@
   "unversionedId": "concepts",
   "id": "concepts",
   "isDocsHomePage": false,
-  "title": "MPFlutter 是什么",
+  "title": "介绍",
   "description": "MPFlutter 是一套用于构建 Web 和 小程序 应用的开发框架。",
   "source": "@site/../docs/Concepts.md",
   "slug": "/concepts",
   "permalink": "/zh/docs/concepts",
   "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Concepts.md",
-  "version": "current"
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "安装",
+    "permalink": "/zh/docs/getting-started"
+  },
+  "next": {
+    "title": "对比其它方案",
+    "permalink": "/zh/docs/compare"
+  }
 }
