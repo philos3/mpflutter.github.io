@@ -92,7 +92,7 @@ const siteConfig = {
     },
     image: "img/opengraph.png",
   },
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: [],
 };
 
 module.exports = siteConfig;

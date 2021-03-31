@@ -124,9 +124,7 @@ export default {
     },
     "hideableSidebar": false
   },
-  "scripts": [
-    "https://buttons.github.io/buttons.js"
-  ],
+  "scripts": [],
   "baseUrlIssueBanner": true,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
