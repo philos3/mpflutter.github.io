@@ -66,7 +66,7 @@ const HomeSplash = () => {
         <div
           className={classnames(styles.heroButtons, 'name', 'margin-vert--md')}>
           <Button href={useBaseUrl('docs/getting-started')}>开始使用</Button>
-          <Button href={useBaseUrl('docs/api')}>了解更多</Button>
+          <Button href={useBaseUrl('docs/Concepts')}>了解更多</Button>
         </div>
         {/* <GitHubButton
           href="https://github.com/facebook/metro"

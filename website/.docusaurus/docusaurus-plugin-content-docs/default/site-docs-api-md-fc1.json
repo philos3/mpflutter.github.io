@@ -6,7 +6,7 @@
   "description": "API",
   "source": "@site/../docs/API.md",
   "slug": "/api",
-  "permalink": "/docs/api",
+  "permalink": "/zh/docs/api",
   "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/API.md",
   "version": "current"
 }

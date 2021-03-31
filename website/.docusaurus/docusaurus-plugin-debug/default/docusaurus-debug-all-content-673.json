@@ -5,7 +5,7 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/metro/docs",
+          "versionPath": "/zh/docs",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/saiakirahui/Documents/mpflutter/site/website/sidebars.json",
@@ -27,7 +27,7 @@
             ]
           },
           "permalinkToSidebar": {
-            "/metro/docs/getting-started": "docs"
+            "/zh/docs/getting-started": "docs"
           },
           "docs": [
             {
@@ -38,20 +38,20 @@
               "description": "API",
               "source": "@site/../docs/API.md",
               "slug": "/api",
-              "permalink": "/metro/docs/api",
-              "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/API.md",
+              "permalink": "/zh/docs/api",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/API.md",
               "version": "current"
             },
             {
               "unversionedId": "concepts",
               "id": "concepts",
               "isDocsHomePage": false,
-              "title": "Concepts",
-              "description": "了解 MPFlutter",
+              "title": "MPFlutter 是什么",
+              "description": "MPFlutter 是一套用于构建 Web 和 小程序 应用的开发框架。",
               "source": "@site/../docs/Concepts.md",
               "slug": "/concepts",
-              "permalink": "/metro/docs/concepts",
-              "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/Concepts.md",
+              "permalink": "/zh/docs/concepts",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Concepts.md",
               "version": "current"
             },
             {
@@ -62,8 +62,8 @@
               "description": "软件要求",
               "source": "@site/../docs/GettingStarted.md",
               "slug": "/getting-started",
-              "permalink": "/metro/docs/getting-started",
-              "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/GettingStarted.md",
+              "permalink": "/zh/docs/getting-started",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/GettingStarted.md",
               "version": "current",
               "sidebar": "docs"
             },
@@ -74,8 +74,8 @@
               "title": "Troubleshooting",
               "source": "@site/../docs/Troubleshooting.md",
               "slug": "/troubleshooting",
-              "permalink": "/metro/docs/troubleshooting",
-              "editUrl": "https://github.com/facebook/metro/edit/master/website/../docs/Troubleshooting.md",
+              "permalink": "/zh/docs/troubleshooting",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Troubleshooting.md",
               "version": "current"
             }
           ]
@@ -89,7 +89,7 @@
         {
           "id": "Blog",
           "metadata": {
-            "permalink": "/metro/blog/2020/12/08/approaching",
+            "permalink": "/zh/blog/2020/12/08/approaching",
             "source": "@site/blog/2020-12-08-approaching.md",
             "description": "The MPFlutter website is live.",
             "date": "2020-12-08T00:00:00.000Z",
@@ -103,7 +103,7 @@
       "blogListPaginated": [
         {
           "metadata": {
-            "permalink": "/metro/blog",
+            "permalink": "/zh/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -126,12 +126,12 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/metro/",
+        "permalink": "/zh/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "jsx",
-        "permalink": "/metro/help/",
+        "permalink": "/zh/help/",
         "source": "@site/src/pages/help/index.js"
       }
     ]
@@ -140,9 +140,6 @@
     "default": null
   },
   "docusaurus-theme-classic": {
-    "default": null
-  },
-  "docusaurus-theme-search-algolia": {
     "default": null
   }
 }

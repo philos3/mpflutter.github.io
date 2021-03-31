@@ -19,7 +19,7 @@ export default {
   "organizationName": "mpflutter",
   "projectName": "mpflutter.github.io",
   "url": "https://mpflutter.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/zh/",
   "favicon": "img/favicon.png",
   "themeConfig": {
     "navbar": {
@@ -101,7 +101,7 @@ export default {
         "src": "img/oss_logo.png",
         "href": "https://opensource.facebook.com/"
       },
-      "copyright": "Copyright © 2020 MPFlutter Team. Built with Docusaurus."
+      "copyright": "Copyright © 2021 MPFlutter Team. Built with Docusaurus."
     },
     "image": "img/opengraph.png",
     "colorMode": {

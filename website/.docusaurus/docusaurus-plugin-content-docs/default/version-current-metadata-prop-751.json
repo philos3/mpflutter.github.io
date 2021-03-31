@@ -13,13 +13,13 @@
           {
             "type": "link",
             "label": "开始使用",
-            "href": "/docs/getting-started"
+            "href": "/zh/docs/getting-started"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/getting-started": "docs"
+    "/zh/docs/getting-started": "docs"
   }
 }
