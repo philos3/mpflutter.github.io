@@ -15,6 +15,10 @@
               "path": "/zh/docs/api"
             },
             {
+              "id": "compare",
+              "path": "/zh/docs/compare"
+            },
+            {
               "id": "concepts",
               "path": "/zh/docs/concepts"
             },

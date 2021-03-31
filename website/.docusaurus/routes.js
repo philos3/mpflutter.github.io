@@ -59,12 +59,17 @@ export default [
 },
 {
   path: '/zh/docs',
-  component: ComponentCreator('/zh/docs','29e'),
+  component: ComponentCreator('/zh/docs','3d8'),
   
   routes: [
 {
   path: '/zh/docs/api',
   component: ComponentCreator('/zh/docs/api','334'),
+  exact: true,
+},
+{
+  path: '/zh/docs/compare',
+  component: ComponentCreator('/zh/docs/compare','a9d'),
   exact: true,
 },
 {
