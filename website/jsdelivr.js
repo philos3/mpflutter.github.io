@@ -15,6 +15,7 @@ function scanDir(path) {
             let content = fs.readFileSync(p, {encoding: "utf-8"})
             content = content.replaceAll(`<script src="/zh/`, `<script src="https://cdn.jsdelivr.net/gh/mpflutter/mpflutter.github.io@master/zh/`)
             content = content.replaceAll(`<link rel="preload" href="/zh/`, `<link rel="preload" href="https://cdn.jsdelivr.net/gh/mpflutter/mpflutter.github.io@master/zh/`)
+            content = content.replaceAll(`<link rel="stylesheet" href="/zh/`, `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mpflutter/mpflutter.github.io@master/zh/`)
             fs.writeFileSync(p, content)
         }
     })
