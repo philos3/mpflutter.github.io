@@ -37,7 +37,7 @@ const siteConfig = {
       title: "MPFlutter",
       logo: {
         alt: "MPFlutter Logo",
-        src: "img/metro.svg",
+        src: "img/logo.png",
       },
       items: [
         { label: "文档", to: "docs/getting-started" },

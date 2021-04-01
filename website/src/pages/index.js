@@ -57,7 +57,7 @@ const HomeSplash = () => {
       <div className="container">
         <img
           className={classnames(styles.heroBannerLogo, 'margin-vert--md')}
-          src={'./img/metro.svg'}
+          src={'./img/logo.png'}
           alt="MPFlutter"
         />
         <h1 className="hero__title">{siteConfig.title}</h1>
