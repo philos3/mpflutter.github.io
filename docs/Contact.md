@@ -15,6 +15,6 @@ title: 沟通与反馈
 * 重现方法
 * 版本
 
-## 为 Taro 贡献代码
+## 为 MPFlutter 贡献代码
 
 TODO
