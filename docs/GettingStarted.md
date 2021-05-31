@@ -1,12 +1,13 @@
 ---
 id: getting-started
-title: 安装
+title: 快速开始
 ---
 
 ## 软件要求
 
-* macOS（暂时不支持 Linux 和 Windows）
+* macOS / Windows / Linux 任一操作系统环境
 * VSCode
+* Flutter 2.0.2+
 
 ## 安装 Flutter 环境
 
@@ -18,18 +19,19 @@ title: 安装
 
 ```bash
 > flutter --version
-Flutter 2.0.2 • channel stable • https://github.com/flutter/flutter.git
-Framework • revision 8962f6dc68 (2 weeks ago) • 2021-03-11 13:22:20 -0800
-Engine • revision 5d8bf811b3
-Tools • Dart 2.12.1
+Flutter 2.2.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision b22742018b (2 weeks ago) • 2021-05-14 19:12:57 -0700
+Engine • revision a9d88a4d18
+Tools • Dart 2.13.0
 ```
 
-## 配置 pub-cache bin 到 PATH 环境变量
+## 配置 pub-cache/bin 和 dart-sdk/bin 到 PATH 环境变量
 
 使用你喜爱的文本编辑器，编辑环境变量文件（在 macOS 上是 `~/.bash_profile`），添加下面一行，以便 `pub global` 中的可执行文件可以正常运行。
 
 ```bash
 export PATH="/Users/<username>/.pub-cache/bin:$PATH"
+export PATH="<flutter_dir>/bin/cache/dart-sdk/bin:$PATH"
 ```
 
 ## 安装 MPFlutter 环境
@@ -50,7 +52,7 @@ mpflutter create awesome_project
 
 毋需开启任何模拟器，只需要在 Chrome 或者 Safari 浏览器上打开 http://0.0.0.0:9898/index.html 即可预览当前开发界面。
 
-> 建议使用 Chrome 打开调试模式，并设置为 iPhone8 设备。
+> 建议使用 Chrome 打开调试模式，并设置为移动设备进行调试。
 
 ## 构建 Web 产物
 

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "install",
+  "id": "install",
+  "isDocsHomePage": false,
+  "title": "安装及使用",
+  "description": "软件要求",
+  "source": "@site/../docs/Install.md",
+  "slug": "/install",
+  "permalink": "/zh/docs/install",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Install.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "沟通与反馈",
+    "permalink": "/zh/docs/contact"
+  },
+  "next": {
+    "title": "构建 Web 应用",
+    "permalink": "/zh/docs/build-web"
+  }
+}

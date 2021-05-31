@@ -10,34 +10,56 @@
           "routePriority": -1,
           "sidebarFilePath": "/Users/saiakirahui/Documents/mpflutter/site/website/sidebars.json",
           "docsDirPath": "/Users/saiakirahui/Documents/mpflutter/site/docs",
-          "mainDocId": "getting-started",
+          "mainDocId": "concepts",
           "sidebars": {
             "docs": [
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "基础",
+                "label": "介绍",
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "getting-started"
-                  },
                   {
                     "type": "doc",
                     "id": "concepts"
                   },
                   {
                     "type": "doc",
-                    "id": "compare"
+                    "id": "teams"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "contact"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "快速开始",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "install"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "build-web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "build-weapp"
                   }
                 ]
               }
             ]
           },
           "permalinkToSidebar": {
-            "/zh/docs/compare": "docs",
+            "/zh/docs/build-weapp": "docs",
+            "/zh/docs/build-web": "docs",
             "/zh/docs/concepts": "docs",
-            "/zh/docs/getting-started": "docs"
+            "/zh/docs/contact": "docs",
+            "/zh/docs/install": "docs",
+            "/zh/docs/teams": "docs"
           },
           "docs": [
             {
@@ -53,6 +75,44 @@
               "version": "current"
             },
             {
+              "unversionedId": "build-weapp",
+              "id": "build-weapp",
+              "isDocsHomePage": false,
+              "title": "构建微信小程序",
+              "description": "使用 MPFlutter 命令行，可以构建开发模式和生产模式产物。",
+              "source": "@site/../docs/BuildWeapp.md",
+              "slug": "/build-weapp",
+              "permalink": "/zh/docs/build-weapp",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/BuildWeapp.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "构建 Web 应用",
+                "permalink": "/zh/docs/build-web"
+              }
+            },
+            {
+              "unversionedId": "build-web",
+              "id": "build-web",
+              "isDocsHomePage": false,
+              "title": "构建 Web 应用",
+              "description": "在命令行输入以下命令，构建 Web 应用。",
+              "source": "@site/../docs/BuildWeb.md",
+              "slug": "/build-web",
+              "permalink": "/zh/docs/build-web",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/BuildWeb.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "安装及使用",
+                "permalink": "/zh/docs/install"
+              },
+              "next": {
+                "title": "构建微信小程序",
+                "permalink": "/zh/docs/build-weapp"
+              }
+            },
+            {
               "unversionedId": "compare",
               "id": "compare",
               "isDocsHomePage": false,
@@ -62,49 +122,98 @@
               "slug": "/compare",
               "permalink": "/zh/docs/compare",
               "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Compare.md",
-              "version": "current",
-              "sidebar": "docs",
-              "previous": {
-                "title": "介绍",
-                "permalink": "/zh/docs/concepts"
-              }
+              "version": "current"
             },
             {
               "unversionedId": "concepts",
               "id": "concepts",
               "isDocsHomePage": false,
-              "title": "介绍",
-              "description": "MPFlutter 是一套用于构建 Web 和 小程序 应用的开发框架。",
+              "title": "简介",
+              "description": "MPFlutter 是一套轻量级的 Flutter 动态化解决方案。",
               "source": "@site/../docs/Concepts.md",
               "slug": "/concepts",
               "permalink": "/zh/docs/concepts",
               "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Concepts.md",
               "version": "current",
               "sidebar": "docs",
+              "next": {
+                "title": "团队",
+                "permalink": "/zh/docs/teams"
+              }
+            },
+            {
+              "unversionedId": "contact",
+              "id": "contact",
+              "isDocsHomePage": false,
+              "title": "沟通与反馈",
+              "description": "开发交流",
+              "source": "@site/../docs/Contact.md",
+              "slug": "/contact",
+              "permalink": "/zh/docs/contact",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Contact.md",
+              "version": "current",
+              "sidebar": "docs",
               "previous": {
-                "title": "安装",
-                "permalink": "/zh/docs/getting-started"
+                "title": "团队",
+                "permalink": "/zh/docs/teams"
               },
               "next": {
-                "title": "对比其它方案",
-                "permalink": "/zh/docs/compare"
+                "title": "安装及使用",
+                "permalink": "/zh/docs/install"
               }
             },
             {
               "unversionedId": "getting-started",
               "id": "getting-started",
               "isDocsHomePage": false,
-              "title": "安装",
+              "title": "快速开始",
               "description": "软件要求",
               "source": "@site/../docs/GettingStarted.md",
               "slug": "/getting-started",
               "permalink": "/zh/docs/getting-started",
               "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/GettingStarted.md",
+              "version": "current"
+            },
+            {
+              "unversionedId": "install",
+              "id": "install",
+              "isDocsHomePage": false,
+              "title": "安装及使用",
+              "description": "软件要求",
+              "source": "@site/../docs/Install.md",
+              "slug": "/install",
+              "permalink": "/zh/docs/install",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Install.md",
               "version": "current",
               "sidebar": "docs",
+              "previous": {
+                "title": "沟通与反馈",
+                "permalink": "/zh/docs/contact"
+              },
               "next": {
-                "title": "介绍",
+                "title": "构建 Web 应用",
+                "permalink": "/zh/docs/build-web"
+              }
+            },
+            {
+              "unversionedId": "teams",
+              "id": "teams",
+              "isDocsHomePage": false,
+              "title": "团队",
+              "description": "当前 MPFlutter 由 PonyCui 负责主持开发，暂未有其它人员参与，欢迎添加微信号 ponycui 交流。",
+              "source": "@site/../docs/Teams.md",
+              "slug": "/teams",
+              "permalink": "/zh/docs/teams",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Teams.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "简介",
                 "permalink": "/zh/docs/concepts"
+              },
+              "next": {
+                "title": "沟通与反馈",
+                "permalink": "/zh/docs/contact"
               }
             },
             {

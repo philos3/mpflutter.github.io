@@ -1,0 +1,21 @@
+{
+  "unversionedId": "contact",
+  "id": "contact",
+  "isDocsHomePage": false,
+  "title": "沟通与反馈",
+  "description": "开发交流",
+  "source": "@site/../docs/Contact.md",
+  "slug": "/contact",
+  "permalink": "/zh/docs/contact",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Contact.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "团队",
+    "permalink": "/zh/docs/teams"
+  },
+  "next": {
+    "title": "安装及使用",
+    "permalink": "/zh/docs/install"
+  }
+}

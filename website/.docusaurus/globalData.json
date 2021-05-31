@@ -8,16 +8,25 @@
           "label": "Next",
           "isLast": true,
           "path": "/zh/docs",
-          "mainDocId": "getting-started",
+          "mainDocId": "concepts",
           "docs": [
             {
               "id": "api",
               "path": "/zh/docs/api"
             },
             {
-              "id": "compare",
-              "path": "/zh/docs/compare",
+              "id": "build-weapp",
+              "path": "/zh/docs/build-weapp",
               "sidebar": "docs"
+            },
+            {
+              "id": "build-web",
+              "path": "/zh/docs/build-web",
+              "sidebar": "docs"
+            },
+            {
+              "id": "compare",
+              "path": "/zh/docs/compare"
             },
             {
               "id": "concepts",
@@ -25,8 +34,22 @@
               "sidebar": "docs"
             },
             {
+              "id": "contact",
+              "path": "/zh/docs/contact",
+              "sidebar": "docs"
+            },
+            {
               "id": "getting-started",
-              "path": "/zh/docs/getting-started",
+              "path": "/zh/docs/getting-started"
+            },
+            {
+              "id": "install",
+              "path": "/zh/docs/install",
+              "sidebar": "docs"
+            },
+            {
+              "id": "teams",
+              "path": "/zh/docs/teams",
               "sidebar": "docs"
             },
             {

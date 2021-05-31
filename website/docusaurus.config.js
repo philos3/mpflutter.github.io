@@ -26,13 +26,16 @@ const siteConfig = {
     ],
   ],
   title: "MPFlutter",
-  tagline: "使用 Flutter 构建『Web』和『小程序』应用",
+  tagline: "轻量级 Flutter 动态化解决方案",
   organizationName: "mpflutter",
   projectName: "mpflutter.github.io",
   url: "https://mpflutter.github.io",
   baseUrl: "/zh/",
   favicon: "img/favicon.png",
   themeConfig: {
+    prism: {
+      additionalLanguages: ['dart'],
+    },
     navbar: {
       title: "MPFlutter",
       logo: {

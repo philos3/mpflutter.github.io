@@ -8,10 +8,5 @@
   "slug": "/compare",
   "permalink": "/zh/docs/compare",
   "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Compare.md",
-  "version": "current",
-  "sidebar": "docs",
-  "previous": {
-    "title": "介绍",
-    "permalink": "/zh/docs/concepts"
-  }
+  "version": "current"
 }

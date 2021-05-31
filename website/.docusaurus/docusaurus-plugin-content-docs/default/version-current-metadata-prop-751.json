@@ -8,30 +8,55 @@
       {
         "collapsed": true,
         "type": "category",
-        "label": "基础",
+        "label": "介绍",
         "items": [
           {
             "type": "link",
-            "label": "安装",
-            "href": "/zh/docs/getting-started"
-          },
-          {
-            "type": "link",
-            "label": "介绍",
+            "label": "简介",
             "href": "/zh/docs/concepts"
           },
           {
             "type": "link",
-            "label": "对比其它方案",
-            "href": "/zh/docs/compare"
+            "label": "团队",
+            "href": "/zh/docs/teams"
+          },
+          {
+            "type": "link",
+            "label": "沟通与反馈",
+            "href": "/zh/docs/contact"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "快速开始",
+        "items": [
+          {
+            "type": "link",
+            "label": "安装及使用",
+            "href": "/zh/docs/install"
+          },
+          {
+            "type": "link",
+            "label": "构建 Web 应用",
+            "href": "/zh/docs/build-web"
+          },
+          {
+            "type": "link",
+            "label": "构建微信小程序",
+            "href": "/zh/docs/build-weapp"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/zh/docs/compare": "docs",
+    "/zh/docs/build-weapp": "docs",
+    "/zh/docs/build-web": "docs",
     "/zh/docs/concepts": "docs",
-    "/zh/docs/getting-started": "docs"
+    "/zh/docs/contact": "docs",
+    "/zh/docs/install": "docs",
+    "/zh/docs/teams": "docs"
   }
 }

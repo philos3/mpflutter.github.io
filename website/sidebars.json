@@ -1,9 +1,14 @@
 {
   "docs": {
-    "基础": [
-      "getting-started",
+    "介绍": [
       "concepts",
-      "compare"
+      "teams",
+      "contact"
+    ],
+    "快速开始": [
+      "install",
+      "build-web",
+      "build-weapp"
     ]
   }
 }

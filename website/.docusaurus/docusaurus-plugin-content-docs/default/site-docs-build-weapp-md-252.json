@@ -1,0 +1,17 @@
+{
+  "unversionedId": "build-weapp",
+  "id": "build-weapp",
+  "isDocsHomePage": false,
+  "title": "构建微信小程序",
+  "description": "使用 MPFlutter 命令行，可以构建开发模式和生产模式产物。",
+  "source": "@site/../docs/BuildWeapp.md",
+  "slug": "/build-weapp",
+  "permalink": "/zh/docs/build-weapp",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/BuildWeapp.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "构建 Web 应用",
+    "permalink": "/zh/docs/build-web"
+  }
+}
