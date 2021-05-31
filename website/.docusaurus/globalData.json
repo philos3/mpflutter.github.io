@@ -11,8 +11,9 @@
           "mainDocId": "concepts",
           "docs": [
             {
-              "id": "api",
-              "path": "/zh/docs/api"
+              "id": "api-index",
+              "path": "/zh/docs/api-index",
+              "sidebar": "api"
             },
             {
               "id": "build-weapp",

@@ -51,9 +51,23 @@
                   }
                 ]
               }
+            ],
+            "api": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "API",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api-index"
+                  }
+                ]
+              }
             ]
           },
           "permalinkToSidebar": {
+            "/zh/docs/api-index": "api",
             "/zh/docs/build-weapp": "docs",
             "/zh/docs/build-web": "docs",
             "/zh/docs/concepts": "docs",
@@ -63,16 +77,16 @@
           },
           "docs": [
             {
-              "unversionedId": "api",
-              "id": "api",
+              "unversionedId": "api-index",
+              "id": "api-index",
               "isDocsHomePage": false,
-              "title": "API",
-              "description": "API",
-              "source": "@site/../docs/API.md",
-              "slug": "/api",
-              "permalink": "/zh/docs/api",
-              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/API.md",
-              "version": "current"
+              "title": "索引",
+              "source": "@site/../docs/ApiIndex.md",
+              "slug": "/api-index",
+              "permalink": "/zh/docs/api-index",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/ApiIndex.md",
+              "version": "current",
+              "sidebar": "api"
             },
             {
               "unversionedId": "build-weapp",

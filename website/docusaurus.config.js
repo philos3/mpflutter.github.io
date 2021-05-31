@@ -43,15 +43,10 @@ const siteConfig = {
         src: "img/logo.png",
       },
       items: [
-        { label: "文档", to: "docs/getting-started" },
-        { label: "API", to: "docs/api" },
-        { label: "帮助", to: "help" },
-        { label: "博客", to: "blog" },
-        // {
-        //   label: 'Twitter',
-        //   href: 'https://twitter.com/MetroBundler',
-        //   position: 'right',
-        // },
+        { label: "文档", to: "docs/concepts" },
+        { label: "API", to: "docs/api-index" },
+        // { label: "帮助", to: "help" },
+        // { label: "博客", to: "blog" },
         {
           label: "GitHub",
           href: "https://github.com/mpflutter/mpflutter",
@@ -66,7 +61,7 @@ const siteConfig = {
           title: "Docs",
           items: [
             { label: "Quick Start", to: "docs/getting-started" },
-            { label: "API Reference", to: "docs/api" },
+            { label: "API Reference", to: "docs/api-index" },
           ],
         },
         {

@@ -36,22 +36,12 @@ export default {
       "items": [
         {
           "label": "文档",
-          "to": "docs/getting-started",
+          "to": "docs/concepts",
           "position": "left"
         },
         {
           "label": "API",
-          "to": "docs/api",
-          "position": "left"
-        },
-        {
-          "label": "帮助",
-          "to": "help",
-          "position": "left"
-        },
-        {
-          "label": "博客",
-          "to": "blog",
+          "to": "docs/api-index",
           "position": "left"
         },
         {
@@ -74,7 +64,7 @@ export default {
             },
             {
               "label": "API Reference",
-              "to": "docs/api"
+              "to": "docs/api-index"
             }
           ]
         },

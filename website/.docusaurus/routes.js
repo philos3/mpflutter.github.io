@@ -8,41 +8,6 @@ export default [
   exact: true,
 },
 {
-  path: '/zh/__docusaurus/debug',
-  component: ComponentCreator('/zh/__docusaurus/debug','a9f'),
-  exact: true,
-},
-{
-  path: '/zh/__docusaurus/debug/config',
-  component: ComponentCreator('/zh/__docusaurus/debug/config','d38'),
-  exact: true,
-},
-{
-  path: '/zh/__docusaurus/debug/content',
-  component: ComponentCreator('/zh/__docusaurus/debug/content','b3d'),
-  exact: true,
-},
-{
-  path: '/zh/__docusaurus/debug/globalData',
-  component: ComponentCreator('/zh/__docusaurus/debug/globalData','bfe'),
-  exact: true,
-},
-{
-  path: '/zh/__docusaurus/debug/metadata',
-  component: ComponentCreator('/zh/__docusaurus/debug/metadata','0ca'),
-  exact: true,
-},
-{
-  path: '/zh/__docusaurus/debug/registry',
-  component: ComponentCreator('/zh/__docusaurus/debug/registry','ffc'),
-  exact: true,
-},
-{
-  path: '/zh/__docusaurus/debug/routes',
-  component: ComponentCreator('/zh/__docusaurus/debug/routes','c25'),
-  exact: true,
-},
-{
   path: '/zh/blog',
   component: ComponentCreator('/zh/blog','1c0'),
   exact: true,
@@ -59,12 +24,12 @@ export default [
 },
 {
   path: '/zh/docs',
-  component: ComponentCreator('/zh/docs','d9e'),
+  component: ComponentCreator('/zh/docs','d44'),
   
   routes: [
 {
-  path: '/zh/docs/api',
-  component: ComponentCreator('/zh/docs/api','334'),
+  path: '/zh/docs/api-index',
+  component: ComponentCreator('/zh/docs/api-index','aa0'),
   exact: true,
 },
 {

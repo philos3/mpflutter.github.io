@@ -8,5 +8,6 @@
   "slug": "/api",
   "permalink": "/zh/docs/api",
   "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/API.md",
-  "version": "current"
+  "version": "current",
+  "sidebar": "api"
 }

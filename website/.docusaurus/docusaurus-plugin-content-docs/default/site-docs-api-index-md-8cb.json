@@ -1,0 +1,12 @@
+{
+  "unversionedId": "api-index",
+  "id": "api-index",
+  "isDocsHomePage": false,
+  "title": "索引",
+  "source": "@site/../docs/ApiIndex.md",
+  "slug": "/api-index",
+  "permalink": "/zh/docs/api-index",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/ApiIndex.md",
+  "version": "current",
+  "sidebar": "api"
+}

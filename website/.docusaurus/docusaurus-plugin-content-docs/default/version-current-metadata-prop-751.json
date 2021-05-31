@@ -49,9 +49,24 @@
           }
         ]
       }
+    ],
+    "api": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "API",
+        "items": [
+          {
+            "type": "link",
+            "label": "索引",
+            "href": "/zh/docs/api-index"
+          }
+        ]
+      }
     ]
   },
   "permalinkToSidebar": {
+    "/zh/docs/api-index": "api",
     "/zh/docs/build-weapp": "docs",
     "/zh/docs/build-web": "docs",
     "/zh/docs/concepts": "docs",

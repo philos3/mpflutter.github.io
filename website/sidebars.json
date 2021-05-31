@@ -10,5 +10,10 @@
       "build-web",
       "build-weapp"
     ]
+  },
+  "api": {
+    "API": [
+      "api-index"
+    ]
   }
 }
