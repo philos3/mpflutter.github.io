@@ -7,6 +7,7 @@
     ],
     "快速开始": [
       "install",
+      "gitpod",
       "build-web",
       "build-weapp"
     ]

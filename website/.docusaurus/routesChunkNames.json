@@ -22,7 +22,7 @@
     "component": "78e9b454",
     "config": "5e9f5e1a"
   },
-  "/zh/docs-d44": {
+  "/zh/docs-681": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -53,6 +53,10 @@
   "/zh/docs/getting-started-ed7": {
     "component": "17896441",
     "content": "163e71e1"
+  },
+  "/zh/docs/gitpod-7c3": {
+    "component": "17896441",
+    "content": "0940751f"
   },
   "/zh/docs/install-86b": {
     "component": "17896441",

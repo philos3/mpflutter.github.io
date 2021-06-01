@@ -44,6 +44,11 @@
               "path": "/zh/docs/getting-started"
             },
             {
+              "id": "gitpod",
+              "path": "/zh/docs/gitpod",
+              "sidebar": "docs"
+            },
+            {
               "id": "install",
               "path": "/zh/docs/install",
               "sidebar": "docs"

@@ -24,7 +24,7 @@ export default [
 },
 {
   path: '/zh/docs',
-  component: ComponentCreator('/zh/docs','d44'),
+  component: ComponentCreator('/zh/docs','681'),
   
   routes: [
 {
@@ -60,6 +60,11 @@ export default [
 {
   path: '/zh/docs/getting-started',
   component: ComponentCreator('/zh/docs/getting-started','ed7'),
+  exact: true,
+},
+{
+  path: '/zh/docs/gitpod',
+  component: ComponentCreator('/zh/docs/gitpod','7c3'),
   exact: true,
 },
 {

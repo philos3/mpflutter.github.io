@@ -43,6 +43,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "gitpod"
+                  },
+                  {
+                    "type": "doc",
                     "id": "build-web"
                   },
                   {
@@ -72,6 +76,7 @@
             "/zh/docs/build-web": "docs",
             "/zh/docs/concepts": "docs",
             "/zh/docs/contact": "docs",
+            "/zh/docs/gitpod": "docs",
             "/zh/docs/install": "docs",
             "/zh/docs/teams": "docs"
           },
@@ -118,8 +123,8 @@
               "version": "current",
               "sidebar": "docs",
               "previous": {
-                "title": "安装及使用",
-                "permalink": "/zh/docs/install"
+                "title": "使用 GitPod 体验",
+                "permalink": "/zh/docs/gitpod"
               },
               "next": {
                 "title": "构建微信小程序",
@@ -189,11 +194,32 @@
               "version": "current"
             },
             {
+              "unversionedId": "gitpod",
+              "id": "gitpod",
+              "isDocsHomePage": false,
+              "title": "使用 GitPod 体验",
+              "description": "尝试 MPFlutter 最简单的方法是使用 GitPod Hello World 例子。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法。",
+              "source": "@site/../docs/GitPod.md",
+              "slug": "/gitpod",
+              "permalink": "/zh/docs/gitpod",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/GitPod.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "安装及使用",
+                "permalink": "/zh/docs/install"
+              },
+              "next": {
+                "title": "构建 Web 应用",
+                "permalink": "/zh/docs/build-web"
+              }
+            },
+            {
               "unversionedId": "install",
               "id": "install",
               "isDocsHomePage": false,
               "title": "安装及使用",
-              "description": "软件要求",
+              "description": "尝试 MPFlutter 最简单的方法是使用 GitPod Hello World 例子。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法，具体使用方法点此查看。",
               "source": "@site/../docs/Install.md",
               "slug": "/install",
               "permalink": "/zh/docs/install",
@@ -205,8 +231,8 @@
                 "permalink": "/zh/docs/contact"
               },
               "next": {
-                "title": "构建 Web 应用",
-                "permalink": "/zh/docs/build-web"
+                "title": "使用 GitPod 体验",
+                "permalink": "/zh/docs/gitpod"
               }
             },
             {

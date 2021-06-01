@@ -3,6 +3,10 @@ id: install
 title: 安装及使用
 ---
 
+尝试 `MPFlutter` 最简单的方法是使用 `GitPod Hello World` 例子。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法，具体使用方法[点此查看](./gitpod)。
+
+在线体验完毕后，你可以通过以下步骤，安装开发环境，完成更进一步的学习和开发。
+
 ## 软件要求
 
 * macOS / Windows / Linux

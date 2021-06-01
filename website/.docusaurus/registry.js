@@ -1,4 +1,5 @@
 export default {
+  '0940751f': [() => import(/* webpackChunkName: '0940751f' */ "@site/../docs/GitPod.md"), "@site/../docs/GitPod.md", require.resolveWeak("@site/../docs/GitPod.md")],
   '163e71e1': [() => import(/* webpackChunkName: '163e71e1' */ "@site/../docs/GettingStarted.md"), "@site/../docs/GettingStarted.md", require.resolveWeak("@site/../docs/GettingStarted.md")],
   '1737ab24': [() => import(/* webpackChunkName: '1737ab24' */ "/Users/saiakirahui/Documents/mpflutter/site/website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json"), "/Users/saiakirahui/Documents/mpflutter/site/website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json", require.resolveWeak("/Users/saiakirahui/Documents/mpflutter/site/website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json")],
   '17896441': [() => import(/* webpackChunkName: '17896441' */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],

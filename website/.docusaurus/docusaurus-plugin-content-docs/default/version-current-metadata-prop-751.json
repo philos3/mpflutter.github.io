@@ -39,6 +39,11 @@
           },
           {
             "type": "link",
+            "label": "使用 GitPod 体验",
+            "href": "/zh/docs/gitpod"
+          },
+          {
+            "type": "link",
             "label": "构建 Web 应用",
             "href": "/zh/docs/build-web"
           },
@@ -71,6 +76,7 @@
     "/zh/docs/build-web": "docs",
     "/zh/docs/concepts": "docs",
     "/zh/docs/contact": "docs",
+    "/zh/docs/gitpod": "docs",
     "/zh/docs/install": "docs",
     "/zh/docs/teams": "docs"
   }

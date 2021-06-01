@@ -11,8 +11,8 @@
   "version": "current",
   "sidebar": "docs",
   "previous": {
-    "title": "安装及使用",
-    "permalink": "/zh/docs/install"
+    "title": "使用 GitPod 体验",
+    "permalink": "/zh/docs/gitpod"
   },
   "next": {
     "title": "构建微信小程序",
