@@ -1,0 +1,20 @@
+{
+  "unversionedId": "ui-widgets-index",
+  "id": "ui-widgets-index",
+  "isDocsHomePage": false,
+  "title": "核心 Widget 目录",
+  "source": "@site/../docs/UIWidgetsIndex.md",
+  "slug": "/ui-widgets-index",
+  "permalink": "/zh/docs/ui-widgets-index",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIWidgetsIndex.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "动画",
+    "permalink": "/zh/docs/ui-animation"
+  },
+  "next": {
+    "title": "网络请求",
+    "permalink": "/zh/docs/data-network"
+  }
+}

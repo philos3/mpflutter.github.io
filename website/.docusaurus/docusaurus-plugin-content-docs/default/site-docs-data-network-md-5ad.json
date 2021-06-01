@@ -1,0 +1,17 @@
+{
+  "unversionedId": "data-network",
+  "id": "data-network",
+  "isDocsHomePage": false,
+  "title": "网络请求",
+  "description": "使用 http 包请求网络数据",
+  "source": "@site/../docs/DataNetwork.md",
+  "slug": "/data-network",
+  "permalink": "/zh/docs/data-network",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/DataNetwork.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "核心 Widget 目录",
+    "permalink": "/zh/docs/ui-widgets-index"
+  }
+}

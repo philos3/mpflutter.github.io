@@ -54,6 +54,44 @@
                     "id": "build-weapp"
                   }
                 ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "用户界面",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "ui-widgets"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ui-assets"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ui-router"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ui-animation"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "ui-widgets-index"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "数据调用和后端",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "data-network"
+                  }
+                ]
               }
             ],
             "api": [
@@ -76,9 +114,15 @@
             "/zh/docs/build-web": "docs",
             "/zh/docs/concepts": "docs",
             "/zh/docs/contact": "docs",
+            "/zh/docs/data-network": "docs",
             "/zh/docs/gitpod": "docs",
             "/zh/docs/install": "docs",
-            "/zh/docs/teams": "docs"
+            "/zh/docs/teams": "docs",
+            "/zh/docs/ui-animation": "docs",
+            "/zh/docs/ui-assets": "docs",
+            "/zh/docs/ui-router": "docs",
+            "/zh/docs/ui-widgets": "docs",
+            "/zh/docs/ui-widgets-index": "docs"
           },
           "docs": [
             {
@@ -108,6 +152,10 @@
               "previous": {
                 "title": "构建 Web 应用",
                 "permalink": "/zh/docs/build-web"
+              },
+              "next": {
+                "title": "Widgets 介绍",
+                "permalink": "/zh/docs/ui-widgets"
               }
             },
             {
@@ -179,6 +227,23 @@
               "next": {
                 "title": "安装及使用",
                 "permalink": "/zh/docs/install"
+              }
+            },
+            {
+              "unversionedId": "data-network",
+              "id": "data-network",
+              "isDocsHomePage": false,
+              "title": "网络请求",
+              "description": "使用 http 包请求网络数据",
+              "source": "@site/../docs/DataNetwork.md",
+              "slug": "/data-network",
+              "permalink": "/zh/docs/data-network",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/DataNetwork.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "核心 Widget 目录",
+                "permalink": "/zh/docs/ui-widgets-index"
               }
             },
             {
@@ -266,6 +331,109 @@
               "permalink": "/zh/docs/troubleshooting",
               "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/Troubleshooting.md",
               "version": "current"
+            },
+            {
+              "unversionedId": "ui-animation",
+              "id": "ui-animation",
+              "isDocsHomePage": false,
+              "title": "动画",
+              "source": "@site/../docs/UIAnimation.md",
+              "slug": "/ui-animation",
+              "permalink": "/zh/docs/ui-animation",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIAnimation.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "路由和导航",
+                "permalink": "/zh/docs/ui-router"
+              },
+              "next": {
+                "title": "核心 Widget 目录",
+                "permalink": "/zh/docs/ui-widgets-index"
+              }
+            },
+            {
+              "unversionedId": "ui-assets",
+              "id": "ui-assets",
+              "isDocsHomePage": false,
+              "title": "资源和图片",
+              "description": "MPFlutter 应用程序包含代码和 assets（也为资源）。资源是被打包到应用程序安装包中，可以在运行时访问的一种文件。常见的资源类型包括静态数据（例如 JSON 文件），配置文件，图标和图片（JPEG，WebP，GIF，动画 WebP / GIF，PNG，BMP 和 WBMP）。",
+              "source": "@site/../docs/UIAssets.md",
+              "slug": "/ui-assets",
+              "permalink": "/zh/docs/ui-assets",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIAssets.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Widgets 介绍",
+                "permalink": "/zh/docs/ui-widgets"
+              },
+              "next": {
+                "title": "路由和导航",
+                "permalink": "/zh/docs/ui-router"
+              }
+            },
+            {
+              "unversionedId": "ui-router",
+              "id": "ui-router",
+              "isDocsHomePage": false,
+              "title": "路由和导航",
+              "description": "MPFlutter 与 Flutter 的路由策略基本一致，\b开发者需要在 MPApp 组件中定义路由，使用 Navigator API 推入、弹出页面。",
+              "source": "@site/../docs/UIRouter.md",
+              "slug": "/ui-router",
+              "permalink": "/zh/docs/ui-router",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIRouter.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "资源和图片",
+                "permalink": "/zh/docs/ui-assets"
+              },
+              "next": {
+                "title": "动画",
+                "permalink": "/zh/docs/ui-animation"
+              }
+            },
+            {
+              "unversionedId": "ui-widgets",
+              "id": "ui-widgets",
+              "isDocsHomePage": false,
+              "title": "Widgets 介绍",
+              "description": "MPFlutter 与 Flutter 共享同一套 Widget 组件库，使用方法基本一致，以下教程来自 flutter.cn 网站，根据 MPFlutter 特性有所修改。",
+              "source": "@site/../docs/UIWidgets.md",
+              "slug": "/ui-widgets",
+              "permalink": "/zh/docs/ui-widgets",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIWidgets.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "构建微信小程序",
+                "permalink": "/zh/docs/build-weapp"
+              },
+              "next": {
+                "title": "资源和图片",
+                "permalink": "/zh/docs/ui-assets"
+              }
+            },
+            {
+              "unversionedId": "ui-widgets-index",
+              "id": "ui-widgets-index",
+              "isDocsHomePage": false,
+              "title": "核心 Widget 目录",
+              "source": "@site/../docs/UIWidgetsIndex.md",
+              "slug": "/ui-widgets-index",
+              "permalink": "/zh/docs/ui-widgets-index",
+              "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIWidgetsIndex.md",
+              "version": "current",
+              "sidebar": "docs",
+              "previous": {
+                "title": "动画",
+                "permalink": "/zh/docs/ui-animation"
+              },
+              "next": {
+                "title": "网络请求",
+                "permalink": "/zh/docs/data-network"
+              }
             }
           ]
         }

@@ -1,0 +1,11 @@
+{
+  "unversionedId": "ui-stateful",
+  "id": "ui-stateful",
+  "isDocsHomePage": false,
+  "title": "添加互动",
+  "source": "@site/../docs/UIStateful.md",
+  "slug": "/ui-stateful",
+  "permalink": "/zh/docs/ui-stateful",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIStateful.md",
+  "version": "current"
+}

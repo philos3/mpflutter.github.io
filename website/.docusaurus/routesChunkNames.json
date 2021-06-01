@@ -22,7 +22,7 @@
     "component": "78e9b454",
     "config": "5e9f5e1a"
   },
-  "/zh/docs-681": {
+  "/zh/docs-9db": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -50,6 +50,10 @@
     "component": "17896441",
     "content": "7db0cebd"
   },
+  "/zh/docs/data-network-e71": {
+    "component": "17896441",
+    "content": "5ad26ceb"
+  },
   "/zh/docs/getting-started-ed7": {
     "component": "17896441",
     "content": "163e71e1"
@@ -69,5 +73,25 @@
   "/zh/docs/troubleshooting-310": {
     "component": "17896441",
     "content": "ba92a0db"
+  },
+  "/zh/docs/ui-animation-d8a": {
+    "component": "17896441",
+    "content": "5c19391e"
+  },
+  "/zh/docs/ui-assets-a38": {
+    "component": "17896441",
+    "content": "def5545e"
+  },
+  "/zh/docs/ui-router-76b": {
+    "component": "17896441",
+    "content": "bb16a88a"
+  },
+  "/zh/docs/ui-widgets-0e0": {
+    "component": "17896441",
+    "content": "1d35a401"
+  },
+  "/zh/docs/ui-widgets-index-5e4": {
+    "component": "17896441",
+    "content": "76463482"
   }
 }

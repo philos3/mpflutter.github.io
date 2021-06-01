@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-assets",
+  "id": "ui-assets",
+  "isDocsHomePage": false,
+  "title": "资源和图片",
+  "description": "MPFlutter 应用程序包含代码和 assets（也为资源）。资源是被打包到应用程序安装包中，可以在运行时访问的一种文件。常见的资源类型包括静态数据（例如 JSON 文件），配置文件，图标和图片（JPEG，WebP，GIF，动画 WebP / GIF，PNG，BMP 和 WBMP）。",
+  "source": "@site/../docs/UIAssets.md",
+  "slug": "/ui-assets",
+  "permalink": "/zh/docs/ui-assets",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIAssets.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Widgets 介绍",
+    "permalink": "/zh/docs/ui-widgets"
+  },
+  "next": {
+    "title": "路由和导航",
+    "permalink": "/zh/docs/ui-router"
+  }
+}

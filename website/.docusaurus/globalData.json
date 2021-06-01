@@ -40,6 +40,11 @@
               "sidebar": "docs"
             },
             {
+              "id": "data-network",
+              "path": "/zh/docs/data-network",
+              "sidebar": "docs"
+            },
+            {
               "id": "getting-started",
               "path": "/zh/docs/getting-started"
             },
@@ -61,6 +66,31 @@
             {
               "id": "troubleshooting",
               "path": "/zh/docs/troubleshooting"
+            },
+            {
+              "id": "ui-animation",
+              "path": "/zh/docs/ui-animation",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ui-assets",
+              "path": "/zh/docs/ui-assets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ui-router",
+              "path": "/zh/docs/ui-router",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ui-widgets",
+              "path": "/zh/docs/ui-widgets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ui-widgets-index",
+              "path": "/zh/docs/ui-widgets-index",
+              "sidebar": "docs"
             }
           ]
         }

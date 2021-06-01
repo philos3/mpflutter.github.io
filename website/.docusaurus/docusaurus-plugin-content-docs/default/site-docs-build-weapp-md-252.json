@@ -13,5 +13,9 @@
   "previous": {
     "title": "构建 Web 应用",
     "permalink": "/zh/docs/build-web"
+  },
+  "next": {
+    "title": "Widgets 介绍",
+    "permalink": "/zh/docs/ui-widgets"
   }
 }

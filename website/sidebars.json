@@ -10,6 +10,16 @@
       "gitpod",
       "build-web",
       "build-weapp"
+    ],
+    "用户界面": [
+      "ui-widgets", 
+      "ui-assets",
+      "ui-router",
+      "ui-animation",
+      "ui-widgets-index"
+    ],
+    "数据调用和后端": [
+      "data-network"
     ]
   },
   "api": {

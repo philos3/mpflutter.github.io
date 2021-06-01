@@ -24,7 +24,7 @@ export default [
 },
 {
   path: '/zh/docs',
-  component: ComponentCreator('/zh/docs','681'),
+  component: ComponentCreator('/zh/docs','9db'),
   
   routes: [
 {
@@ -58,6 +58,11 @@ export default [
   exact: true,
 },
 {
+  path: '/zh/docs/data-network',
+  component: ComponentCreator('/zh/docs/data-network','e71'),
+  exact: true,
+},
+{
   path: '/zh/docs/getting-started',
   component: ComponentCreator('/zh/docs/getting-started','ed7'),
   exact: true,
@@ -80,6 +85,31 @@ export default [
 {
   path: '/zh/docs/troubleshooting',
   component: ComponentCreator('/zh/docs/troubleshooting','310'),
+  exact: true,
+},
+{
+  path: '/zh/docs/ui-animation',
+  component: ComponentCreator('/zh/docs/ui-animation','d8a'),
+  exact: true,
+},
+{
+  path: '/zh/docs/ui-assets',
+  component: ComponentCreator('/zh/docs/ui-assets','a38'),
+  exact: true,
+},
+{
+  path: '/zh/docs/ui-router',
+  component: ComponentCreator('/zh/docs/ui-router','76b'),
+  exact: true,
+},
+{
+  path: '/zh/docs/ui-widgets',
+  component: ComponentCreator('/zh/docs/ui-widgets','0e0'),
+  exact: true,
+},
+{
+  path: '/zh/docs/ui-widgets-index',
+  component: ComponentCreator('/zh/docs/ui-widgets-index','5e4'),
   exact: true,
 },
 ]

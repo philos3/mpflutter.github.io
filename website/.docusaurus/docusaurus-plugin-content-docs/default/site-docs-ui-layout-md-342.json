@@ -1,0 +1,11 @@
+{
+  "unversionedId": "ui-layout",
+  "id": "ui-layout",
+  "isDocsHomePage": false,
+  "title": "布局构建",
+  "source": "@site/../docs/UILayout.md",
+  "slug": "/ui-layout",
+  "permalink": "/zh/docs/ui-layout",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UILayout.md",
+  "version": "current"
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "ui-animation",
+  "id": "ui-animation",
+  "isDocsHomePage": false,
+  "title": "动画",
+  "source": "@site/../docs/UIAnimation.md",
+  "slug": "/ui-animation",
+  "permalink": "/zh/docs/ui-animation",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/UIAnimation.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "路由和导航",
+    "permalink": "/zh/docs/ui-router"
+  },
+  "next": {
+    "title": "核心 Widget 目录",
+    "permalink": "/zh/docs/ui-widgets-index"
+  }
+}

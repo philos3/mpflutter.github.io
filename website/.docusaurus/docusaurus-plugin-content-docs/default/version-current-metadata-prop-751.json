@@ -53,6 +53,50 @@
             "href": "/zh/docs/build-weapp"
           }
         ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "用户界面",
+        "items": [
+          {
+            "type": "link",
+            "label": "Widgets 介绍",
+            "href": "/zh/docs/ui-widgets"
+          },
+          {
+            "type": "link",
+            "label": "资源和图片",
+            "href": "/zh/docs/ui-assets"
+          },
+          {
+            "type": "link",
+            "label": "路由和导航",
+            "href": "/zh/docs/ui-router"
+          },
+          {
+            "type": "link",
+            "label": "动画",
+            "href": "/zh/docs/ui-animation"
+          },
+          {
+            "type": "link",
+            "label": "核心 Widget 目录",
+            "href": "/zh/docs/ui-widgets-index"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "数据调用和后端",
+        "items": [
+          {
+            "type": "link",
+            "label": "网络请求",
+            "href": "/zh/docs/data-network"
+          }
+        ]
       }
     ],
     "api": [
@@ -76,8 +120,14 @@
     "/zh/docs/build-web": "docs",
     "/zh/docs/concepts": "docs",
     "/zh/docs/contact": "docs",
+    "/zh/docs/data-network": "docs",
     "/zh/docs/gitpod": "docs",
     "/zh/docs/install": "docs",
-    "/zh/docs/teams": "docs"
+    "/zh/docs/teams": "docs",
+    "/zh/docs/ui-animation": "docs",
+    "/zh/docs/ui-assets": "docs",
+    "/zh/docs/ui-router": "docs",
+    "/zh/docs/ui-widgets": "docs",
+    "/zh/docs/ui-widgets-index": "docs"
   }
 }
