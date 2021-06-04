@@ -337,6 +337,7 @@
               "id": "ui-animation",
               "isDocsHomePage": false,
               "title": "动画",
+              "description": "MPFlutter 与 Flutter 的动画实现方法完全一致，但是请注意，在 Debug 模式下动画执行可能存在卡顿。",
               "source": "@site/../docs/UIAnimation.md",
               "slug": "/ui-animation",
               "permalink": "/zh/docs/ui-animation",

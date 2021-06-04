@@ -7,7 +7,9 @@ MPFlutter 应用程序包含代码和 assets（也为资源）。资源是被打
 
 ## 放置资源
 
-与 Flutter 不一样的是，MPFlutter 不需要使用 `pubspec.yaml` 文件指定资源。只需要把相关资源放置到工程根目录 `assets` 文件夹下即可。
+> 与 Flutter 使用方式一致，MPFluter 也需要将资源文件定义到 `pubspec.yaml` 中。
+
+一、把相关资源放置到工程根目录 `assets` 文件夹下即可。
 
 下面举例：
 
@@ -16,6 +18,14 @@ MPFlutter 应用程序包含代码和 assets（也为资源）。资源是被打
   - assets
     - images
       - flutter-logo.png
+```
+
+二、在工程根目录下的 `pubspec.yaml` 中，添加资源定义，然后重新执行 `flutter packages get`。
+
+```yml
+flutter:
+  assets:
+    - assets/images/flutter-logo.png
 ```
 
 ## 资源打包 
