@@ -18,6 +18,18 @@
       "ui-animation",
       "ui-widgets-index"
     ],
+    "MPKit": [
+      "mpkit-intro",
+      "mp-dialog",
+      "mp-web-dialog",
+      "mp-app-bar",
+      "mp-icon",
+      "mp-page-view",
+      "mp-scaffold",
+      "mp-sliver-waterfall",
+      "mp-video-view",
+      "mp-web-view"
+    ],
     "数据调用和后端": [
       "data-network"
     ]

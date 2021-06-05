@@ -3,6 +3,7 @@
   "id": "ui-widgets-index",
   "isDocsHomePage": false,
   "title": "核心 Widget 目录",
+  "description": "MPFlutter 允许开发者复用大部分 Flutter Widget，以下是 MPFlutter 的核心可用 Widget，以及不可用的 Widget。",
   "source": "@site/../docs/UIWidgetsIndex.md",
   "slug": "/ui-widgets-index",
   "permalink": "/zh/docs/ui-widgets-index",
@@ -14,7 +15,7 @@
     "permalink": "/zh/docs/ui-animation"
   },
   "next": {
-    "title": "网络请求",
-    "permalink": "/zh/docs/data-network"
+    "title": "MPKit 介绍",
+    "permalink": "/zh/docs/mpkit-intro"
   }
 }

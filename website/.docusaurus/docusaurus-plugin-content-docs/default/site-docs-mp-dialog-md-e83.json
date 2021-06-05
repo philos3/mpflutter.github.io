@@ -1,0 +1,20 @@
+{
+  "unversionedId": "mp-dialog",
+  "id": "mp-dialog",
+  "isDocsHomePage": false,
+  "title": "MPDialog",
+  "source": "@site/../docs/MPDialog.md",
+  "slug": "/mp-dialog",
+  "permalink": "/zh/docs/mp-dialog",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/MPDialog.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "MPKit 介绍",
+    "permalink": "/zh/docs/mpkit-intro"
+  },
+  "next": {
+    "title": "MPWebDialog",
+    "permalink": "/zh/docs/mp-web-dialog"
+  }
+}

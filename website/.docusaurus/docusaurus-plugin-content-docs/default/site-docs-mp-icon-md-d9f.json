@@ -1,0 +1,21 @@
+{
+  "unversionedId": "mp-icon",
+  "id": "mp-icon",
+  "isDocsHomePage": false,
+  "title": "MPIcon",
+  "description": "提供基于 SVG 的图标库 UI 组件，内置完整的 MaterialIcon 内容。",
+  "source": "@site/../docs/MPIcon.md",
+  "slug": "/mp-icon",
+  "permalink": "/zh/docs/mp-icon",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/MPIcon.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "MPAppBar",
+    "permalink": "/zh/docs/mp-app-bar"
+  },
+  "next": {
+    "title": "MPPageView",
+    "permalink": "/zh/docs/mp-page-view"
+  }
+}

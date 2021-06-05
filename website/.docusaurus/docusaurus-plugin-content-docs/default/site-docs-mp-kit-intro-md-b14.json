@@ -1,0 +1,21 @@
+{
+  "unversionedId": "mpkit-intro",
+  "id": "mpkit-intro",
+  "isDocsHomePage": false,
+  "title": "MPKit 介绍",
+  "description": "MPFlutter 基于 Flutter Lite 构建，得益于此，MPFlutter 构建产物大小相比标准 Flutter For Web 产物减少 50%，也正因如此，MPFlutter 移除了所有的 Material 和 Cupertino 组件。",
+  "source": "@site/../docs/MPKitIntro.md",
+  "slug": "/mpkit-intro",
+  "permalink": "/zh/docs/mpkit-intro",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/MPKitIntro.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "核心 Widget 目录",
+    "permalink": "/zh/docs/ui-widgets-index"
+  },
+  "next": {
+    "title": "MPDialog",
+    "permalink": "/zh/docs/mp-dialog"
+  }
+}

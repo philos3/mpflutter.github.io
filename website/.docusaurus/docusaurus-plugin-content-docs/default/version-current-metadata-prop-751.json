@@ -89,6 +89,63 @@
       {
         "collapsed": true,
         "type": "category",
+        "label": "MPKit",
+        "items": [
+          {
+            "type": "link",
+            "label": "MPKit 介绍",
+            "href": "/zh/docs/mpkit-intro"
+          },
+          {
+            "type": "link",
+            "label": "MPDialog",
+            "href": "/zh/docs/mp-dialog"
+          },
+          {
+            "type": "link",
+            "label": "MPWebDialog",
+            "href": "/zh/docs/mp-web-dialog"
+          },
+          {
+            "type": "link",
+            "label": "MPAppBar",
+            "href": "/zh/docs/mp-app-bar"
+          },
+          {
+            "type": "link",
+            "label": "MPIcon",
+            "href": "/zh/docs/mp-icon"
+          },
+          {
+            "type": "link",
+            "label": "MPPageView",
+            "href": "/zh/docs/mp-page-view"
+          },
+          {
+            "type": "link",
+            "label": "MPScaffold",
+            "href": "/zh/docs/mp-scaffold"
+          },
+          {
+            "type": "link",
+            "label": "MPSliverWaterfall",
+            "href": "/zh/docs/mp-sliver-waterfall"
+          },
+          {
+            "type": "link",
+            "label": "MPVideoView",
+            "href": "/zh/docs/mp-video-view"
+          },
+          {
+            "type": "link",
+            "label": "MPWebView",
+            "href": "/zh/docs/mp-web-view"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
         "label": "数据调用和后端",
         "items": [
           {
@@ -123,6 +180,16 @@
     "/zh/docs/data-network": "docs",
     "/zh/docs/gitpod": "docs",
     "/zh/docs/install": "docs",
+    "/zh/docs/mp-app-bar": "docs",
+    "/zh/docs/mp-dialog": "docs",
+    "/zh/docs/mp-icon": "docs",
+    "/zh/docs/mp-page-view": "docs",
+    "/zh/docs/mp-scaffold": "docs",
+    "/zh/docs/mp-sliver-waterfall": "docs",
+    "/zh/docs/mp-video-view": "docs",
+    "/zh/docs/mp-web-dialog": "docs",
+    "/zh/docs/mp-web-view": "docs",
+    "/zh/docs/mpkit-intro": "docs",
     "/zh/docs/teams": "docs",
     "/zh/docs/ui-animation": "docs",
     "/zh/docs/ui-assets": "docs",

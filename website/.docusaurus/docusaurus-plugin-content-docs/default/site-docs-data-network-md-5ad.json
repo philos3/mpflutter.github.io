@@ -11,7 +11,7 @@
   "version": "current",
   "sidebar": "docs",
   "previous": {
-    "title": "核心 Widget 目录",
-    "permalink": "/zh/docs/ui-widgets-index"
+    "title": "MPWebView",
+    "permalink": "/zh/docs/mp-web-view"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "mp-scaffold",
+  "id": "mp-scaffold",
+  "isDocsHomePage": false,
+  "title": "MPScaffold",
+  "source": "@site/../docs/MPScaffold.md",
+  "slug": "/mp-scaffold",
+  "permalink": "/zh/docs/mp-scaffold",
+  "editUrl": "https://github.com/mpflutter/mpflutter/edit/master/website/../docs/MPScaffold.md",
+  "version": "current",
+  "sidebar": "docs",
+  "previous": {
+    "title": "MPPageView",
+    "permalink": "/zh/docs/mp-page-view"
+  },
+  "next": {
+    "title": "MPSliverWaterfall",
+    "permalink": "/zh/docs/mp-sliver-waterfall"
+  }
+}
