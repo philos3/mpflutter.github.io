@@ -3,7 +3,7 @@
   "id": "concepts",
   "isDocsHomePage": false,
   "title": "简介",
-  "description": "MPFlutter 是一套轻量级的 Flutter 动态化解决方案。",
+  "description": "MPFlutter 是一个渐进式 Flutter 开发框架。",
   "source": "@site/../docs/Concepts.md",
   "slug": "/concepts",
   "permalink": "/zh/docs/concepts",

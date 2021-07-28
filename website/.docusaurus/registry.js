@@ -1,6 +1,5 @@
 export default {
   '0940751f': [() => import(/* webpackChunkName: '0940751f' */ "@site/../docs/GitPod.md"), "@site/../docs/GitPod.md", require.resolveWeak("@site/../docs/GitPod.md")],
-  '163e71e1': [() => import(/* webpackChunkName: '163e71e1' */ "@site/../docs/GettingStarted.md"), "@site/../docs/GettingStarted.md", require.resolveWeak("@site/../docs/GettingStarted.md")],
   '1737ab24': [() => import(/* webpackChunkName: '1737ab24' */ "/Users/saiakirahui/Documents/mpflutter/site/website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json"), "/Users/saiakirahui/Documents/mpflutter/site/website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json", require.resolveWeak("/Users/saiakirahui/Documents/mpflutter/site/website/.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json")],
   '17896441': [() => import(/* webpackChunkName: '17896441' */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   '1be78505': [() => import(/* webpackChunkName: '1be78505' */ "@theme/DocPage"), "@theme/DocPage", require.resolveWeak("@theme/DocPage")],
@@ -19,7 +18,6 @@ export default {
   '78e9b454': [() => import(/* webpackChunkName: '78e9b454' */ "@site/src/pages/help/index.js"), "@site/src/pages/help/index.js", require.resolveWeak("@site/src/pages/help/index.js")],
   '7986546b': [() => import(/* webpackChunkName: '7986546b' */ "@site/blog/2020-12-08-approaching.md"), "@site/blog/2020-12-08-approaching.md", require.resolveWeak("@site/blog/2020-12-08-approaching.md")],
   '7db0cebd': [() => import(/* webpackChunkName: '7db0cebd' */ "@site/../docs/Contact.md"), "@site/../docs/Contact.md", require.resolveWeak("@site/../docs/Contact.md")],
-  '831670d9': [() => import(/* webpackChunkName: '831670d9' */ "@site/../docs/Compare.md"), "@site/../docs/Compare.md", require.resolveWeak("@site/../docs/Compare.md")],
   '878e9b51': [() => import(/* webpackChunkName: '878e9b51' */ "@site/../docs/MPVideoView.md"), "@site/../docs/MPVideoView.md", require.resolveWeak("@site/../docs/MPVideoView.md")],
   '8cb17bbc': [() => import(/* webpackChunkName: '8cb17bbc' */ "@site/../docs/ApiIndex.md"), "@site/../docs/ApiIndex.md", require.resolveWeak("@site/../docs/ApiIndex.md")],
   '935f2afb': [() => import(/* webpackChunkName: '935f2afb' */ "~docs/default/version-current-metadata-prop-751.json"), "~docs/default/version-current-metadata-prop-751.json", require.resolveWeak("~docs/default/version-current-metadata-prop-751.json")],

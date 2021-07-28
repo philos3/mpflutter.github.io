@@ -15,7 +15,7 @@ export default {
     ]
   ],
   "title": "MPFlutter",
-  "tagline": "轻量级 Flutter 动态化解决方案",
+  "tagline": "渐进式 Flutter 开发框架",
   "organizationName": "mpflutter",
   "projectName": "mpflutter.github.io",
   "url": "https://mpflutter.github.io",
@@ -60,7 +60,7 @@ export default {
           "items": [
             {
               "label": "Quick Start",
-              "to": "docs/getting-started"
+              "to": "docs/concepts"
             },
             {
               "label": "API Reference",
@@ -94,7 +94,7 @@ export default {
       "logo": {
         "alt": "MPFlutter Logo",
         "src": "img/oss_logo.png",
-        "href": "https://opensource.facebook.com/"
+        "href": "https://github.com/mpflutter/mpflutter"
       },
       "copyright": "Copyright © 2021 MPFlutter Team. Built with Docusaurus."
     },

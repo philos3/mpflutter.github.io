@@ -50,4 +50,27 @@ class MyHomePage extends StatelessWidget {
 }
 ```
 
+## Prompt
+
+输入框，弹出一个模态窗口，请求用户输入文本，与 W3C 定义的 `prompt` 功能一致。
+
+```dart
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      body: GestureDetector(
+        onTap: () async {
+          final result = await MPWebDialogs.prompt(message: '请输入名称');
+          if (result) {
+            print('你的名称' + result);
+          }
+        },
+        // ...
+      ),
+    );
+  }
+}
+```
+
 

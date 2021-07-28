@@ -10,7 +10,7 @@ title: 安装及使用
 ## 软件要求
 
 * macOS / Windows / Linux
-* VSCode
+* VSCode (需要自行安装 Dart Flutter 扩展)
 * Flutter 2.0.2+
 
 ## 安装 Flutter 环境
@@ -35,59 +35,21 @@ Tools • Dart 2.13.0
 
 安装 VSCode 并安装 Dart 和 Flutter 扩展。
 
-## 配置环境变量
-
-编辑环境变量文件（在 macOS 上是 `~/.bash_profile`），添加以下路径至环境变量。
-
-* macOS 或 Linux
-
-```bash
-export PATH="/Users/<username>/.pub-cache/bin:$PATH"
-export PATH="<flutterDir>/bin/cache/dart-sdk/bin:$PATH"
-```
-
-* Windows
-
-编辑环境变量 PATH，添加以下路径（假设 flutter 位于 `C:\flutter`）。
-* `C:\flutter\.pub-cache\bin`
-* `C:\flutter\bin\cache\dart-sdk\bin`
-
-### 验证
-
-在命令行执行以下命令，观察输出是否正常。
-
-```bash
-> pub --version
-Pub 2.13.0
-```
-
-## 安装 MPFlutter 环境
-
-使用命令行执行以下命令。
-
-```bash
-pub global activate --source git https://github.com/mpflutter/mpflutter.git
-```
-
 ## 项目初始化
 
-在任意目录，如 Desktop 桌面，通过命令行，执行以下命令。
+使用 Git 克隆模板工程。
 
-```bash
-mpflutter create awesome_project
-```
+> 如果访问 github.com 存在困难，也可以使用 gitee 访问，只需要把 github.com 替换成 gitee.com 即可。
 
-初次运行 `mpflutter` 需要你选择源地址，macOS 和 Linux 用户可以直接回车选择，Windows 用户输入序号并回车选择，建议国内用户选择 gitee，这将加速代码 clone 速度。
-
-```
-Pick the code source:
--->   1) https://github.com
-      2) https://gitee.com
+```sh
+git clone https://github.com/mpflutter/mpflutter_template.git
 ```
 
 ## 编译运行
 
-使用 VSCode 打开刚刚创建的 `awesome_project` 工程，在键盘上按 `F5` 键，稍等片刻，调试控制台将出现如下提示。
+1. 使用 VSCode 打开刚刚克隆的 `mpflutter_template` 工程。
+2. 使用命令行执行 `dart pub get`，这将执行依赖安装。
+3. 在键盘上按 `F5` 键，稍等片刻，调试控制台将出现如下提示。
 
 ```bash
 Connecting to VM Service at ws://127.0.0.1:64821/yJ6o_q_b0tg=/ws
@@ -101,3 +63,7 @@ Use browser open http://0.0.0.0:9898/index.html for dev.
 在 Chrome 或者 Safari 浏览器上打开 http://0.0.0.0:9898/index.html 即可预览当前开发界面。
 
 建议使用 Chrome 打开调试模式，并设置为移动设备进行调试。
+
+> 如果访问 github.com 存在困难，可以打开 pubspec.yaml 文件，把所有的 github.com 替换成 gitee.com，再执行 `dart pub get` 即可。
+
+> 可以自行修改 mpflutter_template 等相关文件夹、描述文件命名。

@@ -26,7 +26,7 @@ const siteConfig = {
     ],
   ],
   title: "MPFlutter",
-  tagline: "轻量级 Flutter 动态化解决方案",
+  tagline: "渐进式 Flutter 开发框架",
   organizationName: "mpflutter",
   projectName: "mpflutter.github.io",
   url: "https://mpflutter.github.io",
@@ -45,8 +45,6 @@ const siteConfig = {
       items: [
         { label: "文档", to: "docs/concepts" },
         { label: "API", to: "docs/api-index" },
-        // { label: "帮助", to: "help" },
-        // { label: "博客", to: "blog" },
         {
           label: "GitHub",
           href: "https://github.com/mpflutter/mpflutter",
@@ -60,7 +58,7 @@ const siteConfig = {
         {
           title: "Docs",
           items: [
-            { label: "Quick Start", to: "docs/getting-started" },
+            { label: "Quick Start", to: "docs/concepts" },
             { label: "API Reference", to: "docs/api-index" },
           ],
         },
@@ -84,7 +82,7 @@ const siteConfig = {
       logo: {
         alt: "MPFlutter Logo",
         src: "img/oss_logo.png",
-        href: "https://opensource.facebook.com/",
+        href: "https://github.com/mpflutter/mpflutter",
       },
       copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus.`,
     },

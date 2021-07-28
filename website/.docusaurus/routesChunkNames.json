@@ -22,7 +22,7 @@
     "component": "78e9b454",
     "config": "5e9f5e1a"
   },
-  "/zh/docs-4b4": {
+  "/zh/docs-bda": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -38,10 +38,6 @@
     "component": "17896441",
     "content": "c64d6985"
   },
-  "/zh/docs/compare-a9d": {
-    "component": "17896441",
-    "content": "831670d9"
-  },
   "/zh/docs/concepts-d4d": {
     "component": "17896441",
     "content": "c026fe4c"
@@ -53,10 +49,6 @@
   "/zh/docs/data-network-e71": {
     "component": "17896441",
     "content": "5ad26ceb"
-  },
-  "/zh/docs/getting-started-ed7": {
-    "component": "17896441",
-    "content": "163e71e1"
   },
   "/zh/docs/gitpod-7c3": {
     "component": "17896441",

@@ -3,7 +3,7 @@
   "id": "build-weapp",
   "isDocsHomePage": false,
   "title": "构建微信小程序",
-  "description": "使用 MPFlutter 命令行，可以构建开发模式和生产模式产物。",
+  "description": "如果你已经在 mpflutter_template 工程下完成开发，可以使用以下方法构建微信小程序最终产物。",
   "source": "@site/../docs/BuildWeapp.md",
   "slug": "/build-weapp",
   "permalink": "/zh/docs/build-weapp",

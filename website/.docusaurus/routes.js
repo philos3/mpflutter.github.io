@@ -24,7 +24,7 @@ export default [
 },
 {
   path: '/zh/docs',
-  component: ComponentCreator('/zh/docs','4b4'),
+  component: ComponentCreator('/zh/docs','bda'),
   
   routes: [
 {
@@ -43,11 +43,6 @@ export default [
   exact: true,
 },
 {
-  path: '/zh/docs/compare',
-  component: ComponentCreator('/zh/docs/compare','a9d'),
-  exact: true,
-},
-{
   path: '/zh/docs/concepts',
   component: ComponentCreator('/zh/docs/concepts','d4d'),
   exact: true,
@@ -60,11 +55,6 @@ export default [
 {
   path: '/zh/docs/data-network',
   component: ComponentCreator('/zh/docs/data-network','e71'),
-  exact: true,
-},
-{
-  path: '/zh/docs/getting-started',
-  component: ComponentCreator('/zh/docs/getting-started','ed7'),
   exact: true,
 },
 {

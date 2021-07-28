@@ -26,10 +26,6 @@
               "sidebar": "docs"
             },
             {
-              "id": "compare",
-              "path": "/zh/docs/compare"
-            },
-            {
               "id": "concepts",
               "path": "/zh/docs/concepts",
               "sidebar": "docs"
@@ -43,10 +39,6 @@
               "id": "data-network",
               "path": "/zh/docs/data-network",
               "sidebar": "docs"
-            },
-            {
-              "id": "getting-started",
-              "path": "/zh/docs/getting-started"
             },
             {
               "id": "gitpod",
