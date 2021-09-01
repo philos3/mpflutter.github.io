@@ -84,7 +84,7 @@ const siteConfig = {
         src: "img/oss_logo.png",
         href: "https://github.com/mpflutter/mpflutter",
       },
-      copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus. <br /><a href="https://beian.miit.gov.cn/" style="color:white" target="_blank">粤ICP备2021121985号</a>`,
     },
     image: "img/opengraph.png",
   },
