@@ -21,17 +21,17 @@ const contents = [
   {
     content:
       '保留 Flutter 秒级、有状态的热重载能力，真正做到所写即所得。',
-    image: 'https://cdn.jsdelivr.net/gh/mpflutter/mpflutter.github.io@master/zh/img/content/high-speed-train.png',
+    image: 'img/content/high-speed-train.png',
     title: '快速',
   },
   {
     content: '裁去不必要的 Flutter 渲染层，产物更轻量，运行更流畅。',
-    image: 'https://cdn.jsdelivr.net/gh/mpflutter/mpflutter.github.io@master/zh/img/content/scales.png',
+    image: 'img/content/scales.png',
     title: '轻量',
   },
   {
     content: '保留 Flutter 工具链，无需变更编码工具、习惯，一行命令即可开始使用。',
-    image: 'https://cdn.jsdelivr.net/gh/mpflutter/mpflutter.github.io@master/zh/img/content/atom.png',
+    image: 'img/content/atom.png',
     title: '易用',
   },
 ];
@@ -57,7 +57,7 @@ const HomeSplash = () => {
       <div className="container">
         <img
           className={classnames(styles.heroBannerLogo, 'margin-vert--md')}
-          src={'https://cdn.jsdelivr.net/gh/mpflutter/mpflutter.github.io@master/zh/img/logo.png'}
+          src={'img/logo.png'}
           alt="MPFlutter"
         />
         <h1 className="hero__title">{siteConfig.title}</h1>
