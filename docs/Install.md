@@ -31,6 +31,16 @@ Tools • Dart 2.13.0
 
 `MPFlutter` 不要求 Xcode 和 Android Studio 环境，在运行 `flutter doctor` 时，可以忽略相关错误提示。
 
+## 配置环境变量
+
+除安装 Flutter 以外，你还可以把 dart-sdk 目录添加至 PATH 中。
+
+```sh
+export PATH="${__FLUTTER_ROOT_PATH__}/flutter/bin/cache/dart-sdk/bin:$PATH"
+```
+
+于命令行执行 `dart2js --version` 观察是否输出版本信息，如成功输出，则说明配置成功。
+
 ## 安装 IDE 工具
 
 安装 VSCode 并安装 Dart 和 Flutter 扩展。
@@ -67,3 +77,7 @@ Use browser open http://0.0.0.0:9898/index.html for dev.
 > 如果访问 github.com 存在困难，可以打开 pubspec.yaml 文件，把所有的 github.com 替换成 gitee.com，再执行 `dart pub get` 即可。
 
 > 可以自行修改 mpflutter_template 等相关文件夹、描述文件命名。
+
+## 删除不必要的 Target
+
+`mpflutter_template` 工程包含了 web 微信小程序 百度小程序等 target，如果你不需要输出相应的目标，可以删除这些目录。

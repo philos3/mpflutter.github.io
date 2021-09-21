@@ -5,7 +5,7 @@ title: 简介
 
 `MPFlutter` 是一个渐进式 Flutter 开发框架。
 
-你可以基于 Flutter 开发微信小程序、H5、iOS、Android应用，开发者毋需学习传统的 CSS / HTML / JavaScript，也不需要学习 iOS / Android UIKit 知识，使用 Dart / Flutter Framework 即可完成整个 App 开发。
+你可以基于 Flutter 开发微信小程序、百度小程序、H5应用，开发者毋需学习传统的 CSS / HTML / JavaScript，也不需要学习 iOS / Android UIKit 知识，使用 Dart / Flutter Framework 即可完成整个 App 开发。
 
 ## 渐进式的定义
 

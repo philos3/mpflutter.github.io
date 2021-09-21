@@ -73,4 +73,32 @@ class MyHomePage extends StatelessWidget {
 }
 ```
 
+## ActionSheet
+
+弹出一个模态选择界面窗口，请求用户选择选项。
+
+```dart
+final items = ['A - Apple', 'B - Boy', 'C - Cat'];
+final result = await MPWebDialogs.actionSheet(
+  items: items,
+);
+if (result != null) {
+  print(result);
+}
+```
+
+## Toast
+
+你可以使用 Toast 对话框，展示一个短暂出现的 Toast 用于提醒用户，或展示一个 Loading Toast 用于描述当前正在进行的事情。
+
+```dart
+MPWebDialogs.showToast( // or MPWebDialogs.showLoading
+  title: '加载中',
+  icon: ToastIcon.loading,
+  duration: Duration(seconds: 60),
+  mask: true,
+);
+await Future.delayed(Duration(seconds: 5));
+MPWebDialogs.hideToast();  // or MPWebDialogs.hideLoading
+```
 
