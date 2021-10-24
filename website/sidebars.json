@@ -31,7 +31,8 @@
       "mp-web-view"
     ],
     "数据调用和后端": [
-      "data-network"
+      "data-network",
+      "shared-preferences"
     ]
   },
   "api": {
