@@ -26,7 +26,7 @@ const siteConfig = {
     ],
   ],
   title: "MPFlutter",
-  tagline: "渐进式 Flutter 开发框架",
+  tagline: "跨平台 Flutter 开发框架",
   organizationName: "mpflutter",
   projectName: "mpflutter.github.io",
   url: "https://mpflutter.github.io",
