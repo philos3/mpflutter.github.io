@@ -23,6 +23,8 @@ git clone https://github.com/mpflutter/mpflutter_template.git awesome_project
 ./dart pub get
 ```
 
+> 注意，这里用的是 `./dart` 而不是 `dart`！
+
 ## 运行应用
 
 保持在 VSCode 窗口中，按下键盘【F5】键（也可以使用鼠标点开调试栏启动调试），开始调试。
