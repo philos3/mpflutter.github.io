@@ -20,10 +20,10 @@ git clone https://github.com/mpflutter/mpflutter_template.git awesome_project
 使用 VSCode 打开刚刚克隆得到的工程根目录，在命令行中执行以下命令。
 
 ```sh
-./dart pub get
+./mpdart pub get
 ```
 
-> 注意，这里用的是 `./dart` 而不是 `dart`！
+> 注意，这里用的是 `./mpdart` 而不是 `dart`！
 
 ## 运行应用
 
@@ -77,7 +77,7 @@ MPFlutter 通过 热重载 提供快速开发周期，该功能支持应用程�
 停止调试，并切换到终端命令行，执行以下命令。
 
 `
-./dart scripts/help.dart
+./mpdart scripts/help.dart
 `
 
 这将出现以下信息，`help.dart` 是 MPFlutter 的帮助中心，可帮助你完成应用的初始化和构建工作。
@@ -109,7 +109,7 @@ MPFlutter 通过 热重载 提供快速开发周期，该功能支持应用程�
 当开发完成后，你可以通过以下命令构建 Web (HTML5) 产物。
 
 `
-./dart scripts/build_web.dart
+./mpdart scripts/build_web.dart
 `
 
 构建完成后，产物位于 `build` 目录下。
