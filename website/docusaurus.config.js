@@ -44,7 +44,7 @@ const siteConfig = {
       },
       items: [
         { label: "文档", to: "docs/concepts" },
-        { label: "API", to: "docs/api-index" },
+        { label: "寻求帮助", to: "docs/get-help" },
         {
           label: "GitHub",
           href: "https://github.com/mpflutter/mpflutter",

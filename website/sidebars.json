@@ -1,6 +1,6 @@
 {
   "docs": {
-    "MPFlutter": ["concepts", "more"],
+    "MPFlutter": ["concepts"],
     "安装": [
       "install-env",
       "install-windows",
@@ -35,7 +35,11 @@
       "mp-video-view",
       "mp-web-view"
     ],
-    "数据调用和后端": ["data-network", "shared-preferences"]
+    "数据调用和后端": ["data-network", "shared-preferences"],
+    "更多": [
+      "core-team",
+      "get-help"
+    ]
   },
   "api": {
     "API": ["api-index"]
