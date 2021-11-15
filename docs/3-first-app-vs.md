@@ -3,7 +3,7 @@ id: first-app-vs
 title: 使用 VSCode 开发应用
 ---
 
-本页面讲解如何通过模板实现一个 MPFlutter 应用，执行并且在修改程序之后触发“热重载 (hot reload)”功能。
+本页面讲解如何通过克隆模板实现一个 MPFlutter 应用，执行并且在修改程序之后触发“热重载 (hot reload)”功能。
 
 ## 克隆模板工程
 

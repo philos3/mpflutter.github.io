@@ -16,7 +16,7 @@ const siteConfig = {
       {
         docs: {
           path: "../docs",
-          editUrl: "https://github.com/mpflutter/mpflutter/edit/master/website",
+          editUrl: "https://github.com/mpflutter/mpflutter.github.io/edit/master/website",
           sidebarPath: require.resolve("./sidebars.json"),
         },
         theme: {

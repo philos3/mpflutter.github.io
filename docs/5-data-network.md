@@ -11,13 +11,10 @@ MPFlutter 官方维护的 http 包，会保证其在所有输出平台上完全�
 
 ```yml
 dependencies:
-  # ...
-  http:
-    git:
-      url: https://github.com/mpflutter-plugins/http
+  http: ^0.13.1
 ```
 
-然后在工程根目录下，通过命令行执行 `flutter packages get`，国内可以把 `github.com` 替换为 `gitee.com`。
+然后在工程根目录下，通过命令行执行 `./mpdart pub get`。
 
 ### 发起请求
 
@@ -53,10 +50,6 @@ class XXX {
 }
 ```
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/mpflutter/mpflutter_sample/tree/sample_http_lib)
-
-GitPod 是完整的网络请求例子。
-
 ## 使用 dio 包请求网络
 
 ### 添加依赖
@@ -66,13 +59,10 @@ MPFlutter 官方维护的 dio 包，会保证其在所有输出平台上完全�
 ```yml
 dependencies:
   # ...
-  dio:
-    git:
-      url: https://github.com/mpflutter-plugins/dio
-      path: dio
+  dio: ^4.0.0
 ```
 
-然后在工程根目录下，通过命令行执行 `flutter packages get`，国内可以把 `github.com` 替换为 `gitee.com`。
+然后在工程根目录下，通过命令行执行 `./mpdart pub get`。
 
 ### 发起请求
 
