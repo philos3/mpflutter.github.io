@@ -134,4 +134,4 @@ MPFlutter 通过 热重载 提供快速开发周期，该功能支持应用程�
 
 ## 了解更多
 
-* [通过 MPFlutter 调用微信小程序 API](./4-weapp-api)
+* [通过 MPFlutter 调用微信小程序 API](./weapp-api)
