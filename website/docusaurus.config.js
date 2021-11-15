@@ -10,13 +10,15 @@
 "use strict";
 
 const siteConfig = {
+  plugins: ["@docusaurus/plugin-google-gtag"],
   presets: [
     [
       "@docusaurus/preset-classic",
       {
         docs: {
           path: "../docs",
-          editUrl: "https://github.com/mpflutter/mpflutter.github.io/edit/master/website",
+          editUrl:
+            "https://github.com/mpflutter/mpflutter.github.io/edit/master/website",
           sidebarPath: require.resolve("./sidebars.json"),
         },
         theme: {
@@ -34,7 +36,7 @@ const siteConfig = {
   favicon: "img/favicon.png",
   themeConfig: {
     prism: {
-      additionalLanguages: ['dart'],
+      additionalLanguages: ["dart"],
     },
     navbar: {
       title: "MPFlutter",
@@ -87,6 +89,9 @@ const siteConfig = {
       copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus. <br /><a href="https://beian.miit.gov.cn/" style="color:white" target="_blank">粤ICP备2021121985号</a>`,
     },
     image: "img/opengraph.png",
+    gtag: {
+      trackingID: "G-K88LGEJD46",
+    },
   },
   scripts: [],
 };
