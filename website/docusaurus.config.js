@@ -10,7 +10,6 @@
 "use strict";
 
 const siteConfig = {
-  plugins: ["@docusaurus/plugin-google-gtag"],
   presets: [
     [
       "@docusaurus/preset-classic",
