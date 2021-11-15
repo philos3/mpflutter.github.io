@@ -57,14 +57,14 @@ const siteConfig = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "文档",
           items: [
-            { label: "Quick Start", to: "docs/concepts" },
-            { label: "API Reference", to: "docs/api-index" },
+            { label: "介绍", to: "docs/concepts" },
+            { label: "API", to: "docs/api-index" },
           ],
         },
         {
-          title: "Community",
+          title: "交流",
           items: [
             {
               label: "Stack Overflow",
@@ -73,10 +73,10 @@ const siteConfig = {
           ],
         },
         {
-          title: "More",
+          title: "更多",
           items: [
             { label: "Blog", to: "blog" },
-            { label: "Github", href: "https://github.com/mpflutter/mpflutter" },
+            { label: "GitHub", href: "https://github.com/mpflutter/mpflutter" },
           ],
         },
       ],

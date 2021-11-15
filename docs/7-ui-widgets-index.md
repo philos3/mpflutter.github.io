@@ -192,8 +192,6 @@ MPFlutter 允许开发者复用大部分 Flutter Widget，以下是 MPFlutter �
 
 ## Text
 
-在微信小程序中，`RichText` 中的 `GestureRecongizer` 不可用。
-
 ### 可用
 
 - [DefaultTextStyle](https://api.flutter.dev/flutter/widgets/DefaultTextStyle-class.html)

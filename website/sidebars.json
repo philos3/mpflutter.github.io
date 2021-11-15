@@ -16,7 +16,7 @@
     "微信小程序": [
       "weapp-api"
     ],
-    "用户界面": [
+    "界面和路由": [
       "ui-widgets",
       "ui-assets",
       "ui-router",
@@ -25,15 +25,15 @@
     ],
     "MPKit": [
       "mpkit-intro",
-      "mp-dialog",
-      "mp-web-dialog",
+      "mp-scaffold",
       "mp-app-bar",
+      "mp-web-dialog",
+      "mp-dialog",
       "mp-icon",
       "mp-page-view",
-      "mp-scaffold",
-      "mp-sliver-waterfall",
+      "mp-web-view",
       "mp-video-view",
-      "mp-web-view"
+      "mp-sliver-waterfall"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
     "更多": [

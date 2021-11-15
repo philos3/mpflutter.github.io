@@ -67,7 +67,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/mpflutter/mpflutter_sample/tree/sample_animated_container)
 
 点击蓝色区块，`rotated` 属性变更，`build` 方法会重新构建，transform 属性和背景色属性发生变化。
 
@@ -136,7 +135,5 @@ class _MyHomePageState extends State<MyHomePage>
   }
 }
 ```
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/mpflutter/mpflutter_sample/tree/sample_animation_controller)
 
 可见，`AnimationController` 存在 `value`，`value` 值会随插件器更新，并通过该 `value` 驱动界面变化。

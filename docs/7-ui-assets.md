@@ -58,8 +58,5 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/mpflutter/mpflutter_sample/tree/sample_image_asset)
 
 你可以把 `Image.asset` 替换为 `Image.network` 加载网络图片，也可以替换为 `Image.memory` 通过 `base64` 解码加载图片。
-
-> 探索：使用 GitPod 打开例子，尝试修改 Image 组件的 fit 值。
