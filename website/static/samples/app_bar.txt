@@ -1,0 +1,46 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+import 'package:mpcore/mpkit/mpkit.dart';
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int count = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      appBar: MPAppBar(
+        context: context,
+        title: Text('首页'), // 标题
+        leading: Container(width: 44, height: 44, color: Colors.yellow), // 左侧按钮，如设置将覆盖返回按钮。
+        trailing: Container(width: 44, height: 44, color: Colors.red), // 右侧按钮
+        backgroundColor: Colors.white, // 背景色
+        appBarHeight: 44, // AppBar 高度
+      ),
+      body: Container(color: Colors.blue),
+    );
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}

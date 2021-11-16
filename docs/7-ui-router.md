@@ -100,4 +100,4 @@ Widget build(BuildContext context) {
 
 ## 完整例子
 
-<MPFlutterPlayground source="https://mpflutter.com/samples/navigator.dart" height="500px" />
+<MPFlutterPlayground source="/zh/samples/navigator.txt" height="500px" />

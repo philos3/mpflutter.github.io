@@ -3,15 +3,14 @@ id: mp-app-bar
 title: MPAppBar
 ---
 
-最简洁的 AppBar 组件，专为 PWA 和微信小程序定制。
+import {MPFlutterPlayground} from './0-playground.mdx';
+import {API} from './0-api.mdx';
 
-一般来说，Web 应用和微信小程序应用是不需要使用 AppBar 的，因为应用内的 WebView 一般被包装成容器使用。
+可定制化的导航栏组件，提供左侧按钮、标题、右侧按钮定制化能力。
 
-但是，PWA 应用、微信小程序 `navigationStyle:custom` 模式，是需要开发者自行渲染 `AppBar` 组件的，`MPAppBar` 正是如此作用。
+其中，在微信小程序中是不可以定制化右侧按钮的。
 
-`MPAppBar` 提供标准的返回按钮、标题栏、右侧按钮。
-
-示例如下 
+## 基础用法
 
 ```dart
 class MyHomePage extends StatelessWidget {

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "docusaurus start",
+    "pad": "cd static && http-server -c-1 --cors -p3001",
     "build": "docusaurus build && rm -rf ../zh && mv ./build ../zh",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy"
@@ -12,6 +13,7 @@
     "@docusaurus/core": "2.0.0-alpha.69",
     "@docusaurus/preset-classic": "2.0.0-alpha.69",
     "classnames": "2.2.6",
+    "http-server": "^14.0.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-github-btn": "1.1.1",

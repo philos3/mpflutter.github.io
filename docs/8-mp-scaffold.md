@@ -14,13 +14,13 @@ import {API} from './0-api.mdx';
 
 Hello,World! 示例则是 MPScaffold 的最基础用法，在该用例中，页面标题将被设置为 `Template`，页面中间将出现蓝色方块并带有文本。
 
-<MPFlutterPlayground source="https://mpflutter.com/samples/helloworld.dart" height="500px" />
+<MPFlutterPlayground source="/zh/samples/helloworld.txt" height="500px" />
 
 ## 标题栏、底栏、浮动元素
 
 MPScaffold 同时可以提供自定义标题栏、底栏、浮动元素的能力，以下用例将演示一个 Counter 应用的构成，我们通过该 Demo 演示如何定制化标题栏和浮动元素。
 
-<MPFlutterPlayground source="https://mpflutter.com/samples/counter.dart" height="500px" />
+<MPFlutterPlayground source="/zh/samples/counter.txt" height="500px" />
 
 ## API 文档
 

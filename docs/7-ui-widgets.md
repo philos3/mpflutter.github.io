@@ -13,7 +13,7 @@ Flutter 从 React 中吸取灵感，通过现代化框架创建出精美的组�
 
 创建一个最小的 MPFlutter 应用，至少需要使用 `runApp` 方法，以及 `MPApp` `MPScaffold` 两个组件：
 
-<MPFlutterPlayground source="https://mpflutter.com/samples/helloworld.dart" height="500px" />
+<MPFlutterPlayground source="/zh/samples/helloworld.txt" height="500px" />
 
 `runApp()` 函数会持有传入的 Widget，并且使它成为 widget 树中的根节点。
 
@@ -49,7 +49,7 @@ Flutter 自带了一套强大的基础 widgets，下面列出了一些常用的�
 
 下面是一些简单的 widget，它们结合了上面提到的 widget 和一些其他的 widget：
 
-<MPFlutterPlayground source="https://mpflutter.com/samples/simple_layout.dart" height="500px" />
+<MPFlutterPlayground source="/zh/samples/simple_layout.txt" height="500px" />
 
 该例子中，`MPScaffold` 下的 `Column` 组件会使其所有子组件以垂直方式布局，其第一个子组件 `Row` 则会使其所有子组件以水平方式布局，`Expanded` 组件会获取 `Row` 的所有剩余空间。你可以定义多个 `Expanded` 子 widget，并使用 flex 参数确定它们占用可用空间的比例。
 
@@ -59,4 +59,4 @@ Flutter 自带了一套强大的基础 widgets，下面列出了一些常用的�
 
 上述例子基于 `StatelessWidget` 构建，但如果在响应手势以后，需要改变 widget 样式，则需要使用 `StatefulWidget` 进行 widget 树构建。
 
-<MPFlutterPlayground source="https://mpflutter.com/samples/tap_gesture.dart" height="500px" />
+<MPFlutterPlayground source="/zh/samples/tap_gesture.txt" height="500px" />
