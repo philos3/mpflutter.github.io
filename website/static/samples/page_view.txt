@@ -1,0 +1,61 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      body: MPPageView(
+        scrollDirection: Axis.horizontal,
+        children: [
+          Container(
+            color: Colors.yellow,
+            child: Center(
+              child: Text(
+                'A',
+                style: TextStyle(fontSize: 66, color: Colors.black),
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.blue,
+            child: Center(
+              child: Text(
+                'B',
+                style: TextStyle(fontSize: 66, color: Colors.black),
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.orange,
+            child: Center(
+              child: Text(
+                'C',
+                style: TextStyle(fontSize: 66, color: Colors.black),
+              ),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}

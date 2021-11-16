@@ -12,11 +12,10 @@ MPFlutter 官方维护的 SharedPreferences 包，会保证其在所有输出平
 ```yml
 dependencies:
   # ...
-shared_preferences:
-    git: https://github.com/mpflutter-plugins/shared_preferences
+  shared_preferences: ^2.0.8
 ```
 
-然后在工程根目录下，通过命令行执行 `flutter packages get`，国内可以把 `github.com` 替换为 `gitee.com`。
+然后在工程根目录下，通过命令行执行 `./mpdart pub get`。
 
 ### 保存本地缓存数据
 
@@ -30,8 +29,6 @@ Future<bool> setStringList(String key, List<String> value);
 // 使用方式
 final value = (await SharedPreferences.getInstance()).getString('testKey');
 ```
-
-
 
 ### 获取本地缓存数据
 
