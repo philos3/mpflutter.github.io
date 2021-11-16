@@ -3,6 +3,7 @@ id: concepts
 title: 介绍
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import {MPFlutterPlayground} from './0-playground.mdx';
 
 `MPFlutter` 是一个跨平台 Flutter 开发框架，可用于各种小程序、H5、原生应用开发。
@@ -19,7 +20,7 @@ MPFlutter 提供了丰富的组件、接口，开发者可以轻松地为应用�
 
 尝试 MPFlutter 最简单的方法是使用 Hello World 例子，我们在文档中提供嵌入式的 Playground，你可以在阅读、修改代码的同时，点击 Run 按钮，编译并预览应用。
 
-<MPFlutterPlayground source="/zh/samples/helloworld.txt" height="500px" />
+<MPFlutterPlayground source={useBaseUrl("/zh/samples/helloworld.txt")} height="500px" />
 
 ## 安装和环境配置
 

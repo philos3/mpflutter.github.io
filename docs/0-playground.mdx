@@ -1,12 +1,10 @@
+import {baseUrl} from './0-url.mdx'
 
 export const MPFlutterPlayground = ({source, height}) => (
     <iframe style={{width: "100%", height: height || "300px", border: "none"}} src={`https://pub.mpflutter.com/playground/index.html?source=${(() => {
-        let a = document.createElement('a');
-        a.href = source;
-        let h = a.href;
-        if (h.startsWith('http://localhost:3000/zh/')) {
-            return h.replace('http://localhost:3000/zh/','http://localhost:3001/');
+        if (baseUrl === 'http://localhost:3001') {
+            return baseUrl + source.replace('/zh/', '/');
         }
-        return h;
+        return baseUrl + source;
     })()}`} />
 )
