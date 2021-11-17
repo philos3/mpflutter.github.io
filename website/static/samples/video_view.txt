@@ -1,0 +1,71 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  final videoController = MPVideoController();
+
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      body: Center(
+        child: Column(
+          children: [
+            Container(
+              width: 300,
+              height: 300,
+              child: MPVideoView(
+                url:
+                    'https://avideo.yidoutang.com/prod/upload/202105/12anniversary_v3.mp4.w848.mp4',
+                controller: videoController,
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                videoController.pause();
+              },
+              child: _renderPauseButton(),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Container _renderPauseButton() {
+    return Container(
+      width: 120,
+      height: 44,
+      color: Colors.blue,
+      child: Center(
+        child: Text(
+          'Pause',
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}

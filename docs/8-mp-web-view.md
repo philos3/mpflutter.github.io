@@ -3,36 +3,14 @@ id: mp-web-view
 title: MPWebView
 ---
 
-提供可嵌入的 WebView 能力，在 web 上是 iframe，在微信小程序上是 WebView（铺满全屏）。
+import {API} from './0-api.mdx';
 
-在 Web 和微信小程序，无法提供 postMessage JSBridge 等交互能力。
+提供可嵌入的 WebView 能力，在 Web 及小程序中分别有不同的实现。
 
-有如下属性可供设置
+* Web - Iframe
+* 小程序 - 全屏 web-view 
 
-```dart
-// 需要加载的 url
-final String url;
-
-// webView 控制器，用于控制 h5 的重新加载等操作
-final MPWebViewController? controller;
-```
-
-
-
-MPWebViewController 提供如下 API 
-
-```dart
-// 重新加载
-void reload();
-
-/// 设置加载的 URL 
-/// @params url 待加载的 H5 链接
-void loadUrl(String url);
-```
-
-
-
-使用示例
+## 基本用法
 
 ```dart
 class MyHomePage extends StatelessWidget {
@@ -40,10 +18,36 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MPScaffold(
       body: MPWebView(
-        url: 'web url',
+        url: 'https://www.github.com/',
         controller: MPWebViewController(),
       ),
     );
   }
 }
 ```
+
+## API 文档
+
+### MPWebView 
+
+<API name="url" 
+     type="String?" 
+     desc="网页地址" 
+     more="必填" />
+
+<API name="controller" 
+     type="MPWebViewController?" 
+     desc="WebView 控制器，可用于控制 WebView 行为。" 
+     more="非必填" />
+
+### MPWebViewController
+
+<API name="reload" 
+     type="void" 
+     desc="重新加载网页" 
+     more="方法" />
+
+<API name="loadUrl(String url)" 
+     type="void" 
+     desc="使用新的 url 加载网页" 
+     more="方法" />

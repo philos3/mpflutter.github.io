@@ -3,87 +3,102 @@ id: mp-video-view
 title: MPVideoView
 ---
 
-可用于视频播放，根据浏览器、微信小程序支持不同格式播放。
+import {MPFlutterPlayground} from './0-playground.mdx';
+import {API} from './0-api.mdx';
 
-有以下属性可供设置
+提供可嵌入的 Video 视频播放器。
 
-```dart
-// 需要播放的 video url.
-final String url;
+## 基本用法
 
-// 是否显示控制播放元素，如开始、暂停、进度条等元素。
-final bool controls;
+<MPFlutterPlayground source="/zh/samples/video_view.txt" height="500px" />
 
-// 是否自动播放
-final bool autoplay;
+## API 文档
 
-// 是否循环播放
-final bool loop;
+### MPVideoView
 
-// 是否静音
-final bool muted;
+<API name="url" 
+     type="String" 
+     desc="需要播放的视频 url" 
+     more="必填" />
 
-// 预览图
-final String? poster;
+<API name="controls" 
+     type="bool?" 
+     desc="是否需要展示视频控制元素" 
+     more="非必填,默认值为 true" />
 
-// 播放控制器，用于控制视频的播放/暂停等
-final MPVideoController? controller;
-```
+<API name="autoplay" 
+     type="bool?" 
+     desc="是否在打开页面时自动播放视频" 
+     more="非必填,默认值为 false" />
 
+<API name="loop" 
+     type="bool?" 
+     desc="是否循环播放" 
+     more="非必填,默认值为 false" />
 
+<API name="muted" 
+     type="bool?" 
+     desc="是否静音" 
+     more="非必填，默认值为 false" />
 
-其中 MPVideoController 有以下 API 可供调用(其中 H5 端所有 API 均已实现支持，微信小程序部分 API 还有待实现)
+<API name="poster" 
+     type="String?" 
+     desc="封面图，用于视频加载前的首帧图展示。" 
+     more="非必填" />
 
-```dart
-// 播放
-void play();
+<API name="controller" 
+     type="MPVideoController?" 
+     desc="视频控制器" 
+     more="非必填" />
 
-// 暂停
-void pause();
+### MPVideoController
 
-/// 设置音量 (微信小程序尚未实现)
-/// @params volumn 音量大小，取值范围 0~1
-void setVolumn(double volumn);
+<API name="play" 
+     type="void" 
+     desc="播放视频" 
+     more="方法" />
 
-// 增大音量，每次增加 0.1 (微信小程序尚未实现)
-void volumnUp();
+<API name="pause" 
+     type="void" 
+     desc="暂停播放视频" 
+     more="方法" />
 
-// 减小音量，每次减少 0.1 (微信小程序尚未实现)
-void volumnDown();
+<API name="setVolumn(double volumn)" 
+     type="void" 
+     desc="设置视频音量" 
+     more="方法,微信小程序尚未实现" />
 
-/// 设置是否静音
-/// @params muted	true - 静音，false - 非静音
-void setMuted(bool muted);
+<API name="volumnUp" 
+     type="void" 
+     desc="增大音量" 
+     more="方法,微信小程序尚未实现" />
 
-// 设置全屏
-void fullscreen();
+<API name="volumnDown" 
+     type="void" 
+     desc="降低音量" 
+     more="方法,微信小程序尚未实现" />
 
-/// 设置播放倍速
-/// @params playbackRate 倍速，取值范围 0.5~2.5
-void setPlaybackRate(double playbackRate);
+<API name="setMuted(bool muted)" 
+     type="void" 
+     desc="设置静音与否" 
+     more="方法" />
 
-/// 跳转到某一播放时刻
-/// @parmas seekTo 跳转到某一播放时刻，单位：秒
-void seekTo(double seekTo);
+<API name="fullscreen" 
+     type="void" 
+     desc="设置全屏" 
+     more="方法" />
 
-// 获取当前播放进度，单位：秒 (微信小程序尚未实现)
-Future<double> getCurrentTime();
-```
+<API name="setPlaybackRate(double playbackRate)" 
+     type="void" 
+     desc="设置播放倍速" 
+     more="方法" />
 
+<API name="seekTo(double seekTo)" 
+     type="void" 
+     desc="跳到某一播放时刻(秒)" 
+     more="方法" />
 
-
-使用示例
-
-```dart
-class MyHomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MPScaffold(
-      body: MPVideoView(
-        url: 'video url',
-        controller: MPVideoController(),
-      ),
-    );
-  }
-}
-```
+<API name="getCurrentTime" 
+     type="Future<double>" 
+     desc="获取当前播放进度(秒)" 
+     more="方法,微信小程序尚未实现" />
