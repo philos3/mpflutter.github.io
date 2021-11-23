@@ -13,9 +13,7 @@
       "first-app-as",
       "first-app-weapp"
     ],
-    "微信小程序": [
-      "weapp-api"
-    ],
+    "微信小程序": ["weapp-api", "weapp-view"],
     "界面和路由": [
       "ui-widgets",
       "ui-assets",
@@ -36,10 +34,8 @@
       "mp-sliver-waterfall"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
-    "更多": [
-      "core-team",
-      "get-help"
-    ]
+    "外部工具库": ["lib-getx"],
+    "更多": ["core-team", "get-help", "upgrade-core"]
   },
   "api": {
     "API": ["api-index"]
