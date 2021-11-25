@@ -23,6 +23,10 @@ WebDialog API 提供与 Platform 相关的 Alert / Confirm / Prompt / ActionShee
 
 Dialog API 提供可完全自定义的模态对框架弹出能力。
 
+### MPEditableText
+
+提供一个无任何样式的文本输入框。
+
 ### MPIcon
 
 预定义的图标组件，内置完整的 MaterialIcon 图标，可用于快速填充设计和开发需要的图标样式。
