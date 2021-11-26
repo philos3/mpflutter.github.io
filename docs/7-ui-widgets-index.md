@@ -86,7 +86,7 @@ MPFlutter 允许开发者复用大部分 Flutter Widget，以下是 MPFlutter �
 ### 可用
 
 - [AbsorbPointer](https://api.flutter.dev/flutter/widgets/AbsorbPointer-class.html)
-- [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) 仅 onTap 可用
+- [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
 - [IgnorePointer](https://api.flutter.dev/flutter/widgets/IgnorePointer-class.html)
 - [Navigator](https://api.flutter.dev/flutter/widgets/Navigator-class.html)
 
