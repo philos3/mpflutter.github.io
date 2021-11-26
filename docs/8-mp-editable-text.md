@@ -114,3 +114,7 @@ import {API} from './0-api.mdx';
      desc="提示文本的样式" 
      more="非必填" />
 
+<API name="maxLength" 
+     type="int?" 
+     desc="最大输入字符长度" 
+     more="非必填" />
