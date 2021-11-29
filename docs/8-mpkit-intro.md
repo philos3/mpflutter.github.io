@@ -43,6 +43,18 @@ Dialog API 提供可完全自定义的模态对框架弹出能力。
 
 提供可嵌入的视频播放器，并提供 VideoController。
 
+### MPSwitch
+
+提供一个 weui 风格的开关选择器。
+
+### MPSlider
+
+提供一个 weui 风格的滑杆控制器。
+
+### MPPicker / MPDatePicker
+
+提供一个 weui 风格的单列、多列、日期选项选择器。
+
 ### MPSliverWaterfall
 
 可用于在 `CustomScrollView` 中作瀑布流布局的组件。

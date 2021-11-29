@@ -32,6 +32,9 @@
       "mp-page-view",
       "mp-web-view",
       "mp-video-view",
+      "mp-switch",
+      "mp-slider",
+      "mp-picker",
       "mp-sliver-waterfall"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
