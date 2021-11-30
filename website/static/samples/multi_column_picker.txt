@@ -1,0 +1,79 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  var currentIndexes = [MPPickerItem(label: '单车')];
+  final items = [
+    MPPickerItem(label: '单车', subItems: [
+      MPPickerItem(label: '小单车', subItems: [
+        MPPickerItem(label: '租用'),
+        MPPickerItem(label: '购买'),
+      ]),
+      MPPickerItem(label: '双人单车', subItems: [
+        MPPickerItem(label: '租 1 小时'),
+        MPPickerItem(label: '租 2 小时'),
+      ]),
+      MPPickerItem(label: '电单车', subItems: [
+        MPPickerItem(label: '小黄车'),
+        MPPickerItem(label: '小蓝车'),
+      ]),
+    ]),
+    MPPickerItem(label: '火车'),
+    MPPickerItem(label: '电车'),
+    MPPickerItem(label: '汽车'),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      name: 'Template',
+      body: Center(
+        child: MPPicker(
+          child: Container(
+            width: 200,
+            height: 44,
+            color: Colors.green,
+            child: Center(
+              child: Text(
+                currentIndexes.map((e) => e.label).join(','),
+                style: TextStyle(color: Colors.white, fontSize: 18),
+              ),
+            ),
+          ),
+          column: 3,
+          items: items,
+          defaultValue: [0, 0, 0],
+          onResult: (value) {
+            setState(() {
+              currentIndexes = value;
+            });
+          },
+        ),
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}

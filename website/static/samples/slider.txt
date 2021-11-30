@@ -1,0 +1,41 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      name: 'Template',
+      body: Center(
+        child: MPSlider(
+          min: 0,
+          max: 100,
+          defaultValue: 50,
+          width: 200,
+          onValueChanged: (value) {
+            print(value);
+          },
+        ),
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}

@@ -1,0 +1,60 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+
+class MyHomePage extends StatefulWidget {
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  DateTime? currentDate;
+
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      name: 'Template',
+      body: Center(
+        child: MPDatePicker(
+          child: Container(
+            width: 300,
+            height: 44,
+            color: Colors.green,
+            child: Center(
+              child: Text(
+                currentDate?.toIso8601String() ?? 'Tap to select date.',
+                style: TextStyle(color: Colors.white, fontSize: 18),
+              ),
+            ),
+          ),
+          start: DateTime(1900, 01, 01),
+          end: DateTime.now(),
+          defaultValue: DateTime.now(),
+          onResult: (value) {
+            setState(() {
+              currentDate = value;
+            });
+          },
+        ),
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}
