@@ -7,9 +7,22 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var currentIndex = MPPickerItem(label: '单车');
+  var currentIndexes = [MPPickerItem(label: '单车')];
   final items = [
-    MPPickerItem(label: '单车'),
+    MPPickerItem(label: '单车', subItems: [
+      MPPickerItem(label: '小单车', subItems: [
+        MPPickerItem(label: '租用'),
+        MPPickerItem(label: '购买'),
+      ]),
+      MPPickerItem(label: '双人单车', subItems: [
+        MPPickerItem(label: '租 1 小时'),
+        MPPickerItem(label: '租 2 小时'),
+      ]),
+      MPPickerItem(label: '电单车', subItems: [
+        MPPickerItem(label: '小黄车'),
+        MPPickerItem(label: '小蓝车'),
+      ]),
+    ]),
     MPPickerItem(label: '火车'),
     MPPickerItem(label: '电车'),
     MPPickerItem(label: '汽车'),
@@ -22,26 +35,23 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: MPPicker(
           child: Container(
-            width: 100,
+            width: 200,
             height: 44,
             color: Colors.green,
             child: Center(
               child: Text(
-                currentIndex.label,
+                currentIndexes.map((e) => e.label).join(','),
                 style: TextStyle(color: Colors.white, fontSize: 18),
               ),
             ),
           ),
-          column: 1,
+          column: 3,
           items: items,
-          defaultValue: [
-            items.indexWhere((element) => element.label == currentIndex.label)
-          ],
+          defaultValue: [0, 0, 0],
           onResult: (value) {
             setState(() {
-              currentIndex = value[0];
+              currentIndexes = value;
             });
-            print(value[0].label);
           },
         ),
       ),
