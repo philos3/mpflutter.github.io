@@ -80,8 +80,8 @@ import {API} from './0-api.mdx';
      more="非必填" />
 
 <API name="keyboardType" 
-     type="TextInputType?" 
-     desc="键盘的类型" 
+     type="TextInputType? | MPIdCardTextInputType?" 
+     desc="键盘的类型，当填入 MPIdCardTextInputType 类型时，微信小程序可以弹出身份证号码输入键盘。" 
      more="非必填" />
 
 <API name="textInputAction" 
