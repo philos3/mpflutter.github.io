@@ -19,3 +19,7 @@ CustomPaint 在平台的实现是通过 Canvas 2D API 完成的。
 ## 导出 PNG 数据
 
 你可以使用 `Future<Uint8List> fetchImageFromCustomPaint(GlobalKey customPaintKey)` 方法将 CustomPaint 画面保存成 PNG 数据。
+
+以下例子是签名板的代码。
+
+<MPFlutterPlayground source="/zh/samples/signature.txt" height="500px" />
