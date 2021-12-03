@@ -13,7 +13,12 @@
       "first-app-as",
       "first-app-weapp"
     ],
-    "微信小程序": ["weapp-api", "weapp-view"],
+    "微信小程序": [
+      "weapp-api",
+      "weapp-view",
+      "weapp-route-page",
+      "weapp-subpackage"
+    ],
     "界面和路由": [
       "ui-widgets",
       "ui-assets",
