@@ -1,0 +1,50 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      name: 'Template',
+      body: Center(
+        child: Container(
+          width: 200,
+          height: 200,
+          color: Colors.black,
+          child: CustomPaint(painter: _MyHomePainter()),
+        ),
+      ),
+    );
+  }
+}
+
+class _MyHomePainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    canvas.drawRect(Rect.fromLTWH(20, 20, 44, 44), Paint()..color = Colors.red);
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    return true;
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}
