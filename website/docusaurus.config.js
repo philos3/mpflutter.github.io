@@ -87,7 +87,7 @@ const siteConfig = {
       },
       copyright: `Copyright © ${new Date().getFullYear()} MPFlutter Team. Built with Docusaurus. <br /><a href="https://beian.miit.gov.cn/" style="color:white" target="_blank">粤ICP备2021121985号</a>`,
     },
-    image: "img/opengraph.png",
+    image: "img/logo.png",
     gtag: {
       trackingID: "G-K88LGEJD46",
     },
