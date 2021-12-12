@@ -57,7 +57,7 @@ import {API} from './0-api.mdx';
      desc="该 Tab 对应的页面内容，必须包含一个带有 MPScaffold 的 Widget。" 
      more="必填" />
 
-### MPMainTabController\
+### MPMainTabController
 
 <API name="currentPage" 
      type="int" 
