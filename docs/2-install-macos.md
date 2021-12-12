@@ -15,6 +15,8 @@ title: 在 macOS 中配置环境
 
 * 工具：Flutter 使用 git 进行安装和升级，我们建议您安装包含了 git 的 Xcode，或者您也可以 单独安装 git。
 
+* 安装 NodeJS 10.0+ 版本，并确保 `node` 和 `npm` 可在命令行中正确执行。
+
 ## 获取 Flutter SDK
 
 1. 点击下方的安装包，获取 stable 发行通道的 Flutter SDK 最新版本：

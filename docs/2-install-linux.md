@@ -11,6 +11,8 @@ title: 在 Linux 中配置环境
 export PATH="$PATH:`pwd`/flutter/bin/cache/dart-sdk/bin"
 ```
 
+安装 NodeJS 10.0+ 版本，并确保 `node` 和 `npm` 可在命令行中正确执行。
+
 ## 在终端中检查相应命令是否可执行
 
 在终端命令行中依次执行以下命令，如果存在任一命令报错，请重新检查 Flutter 是否正确安装。

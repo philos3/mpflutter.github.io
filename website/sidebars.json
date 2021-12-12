@@ -29,6 +29,7 @@
     "MPKit": [
       "mpkit-intro",
       "mp-scaffold",
+      "mp-main-tab-view",
       "mp-app-bar",
       "mp-editable-text",
       "mp-web-dialog",

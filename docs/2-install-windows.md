@@ -21,6 +21,8 @@ title: 在 Windows 中配置环境
 
     * 如果 Windows 版的 Git 已经安装过了，那么请确保能从命令提示符或者 PowerShell 中直接执行 git 命令。
 
+* 安装 NodeJS 10.0+ 版本，并确保 `node` 和 `npm` 可在命令行中正确执行。
+
 ## 获取 Flutter SDK
 
 1. 点击下方的安装包，获取 stable 发行通道的 Flutter SDK 最新版本：
