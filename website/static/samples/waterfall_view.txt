@@ -1,0 +1,46 @@
+import 'package:flutter/widgets.dart';
+import 'package:mpcore/mpcore.dart';
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPScaffold(
+      name: 'Template',
+      body: WaterfallView.builder(
+        gridDelegate: SliverWaterfallDelegate(
+          crossAxisCount: 2,
+          mainAxisSpacing: 10,
+          crossAxisSpacing: 10,
+        ),
+        padding: EdgeInsets.all(12),
+        itemBuilder: (context, index) {
+          return Container(
+            height: 50 + index % 5 * 30,
+            color: Colors.blue,
+            child: Center(child: Text('index - $index')),
+          );
+        },
+        itemCount: 200,
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(MyApp());
+  MPCore().connectToHostChannel();
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MPApp(
+      title: 'MPFlutter Demo',
+      color: Colors.blue,
+      routes: {
+        '/': (context) => MyHomePage(),
+      },
+      navigatorObservers: [MPCore.getNavigationObserver()],
+    );
+  }
+}

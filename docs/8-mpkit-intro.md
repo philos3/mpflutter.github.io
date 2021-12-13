@@ -61,6 +61,6 @@ Dialog API 提供可完全自定义的模态对框架弹出能力。
 
 提供一个 weui 风格的单列、多列、日期选项选择器。
 
-### MPSliverWaterfall
+### MPWaterfall
 
-可用于在 `CustomScrollView` 中作瀑布流布局的组件。
+MPFlutter 通过 WaterfallView 和 SliderWaterfall 提供瀑布流布局支持，你可以通过以下方式使用该布局。

@@ -41,8 +41,8 @@
       "mp-switch",
       "mp-slider",
       "mp-picker",
-      "mp-sliver-waterfall",
-      "custom-paint"
+      "custom-paint",
+      "mp-waterfall"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
     "外部工具库": ["lib-getx", "lib-bloc", "lib-provider"],
