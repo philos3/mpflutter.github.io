@@ -24,7 +24,7 @@ dependencies:
   flutter: "0.8.5"
   mpcore: "0.8.5"
   mp_build_tools: "0.8.5"
-  universal_miniprogram_api: ^0.0.1
+  universal_miniprogram_api: ^0.0.2
 ```
 
 使用命令行执行 `./mpdart pub get` 安装依赖。
