@@ -91,7 +91,7 @@ MPFlutter 通过 热重载 提供快速开发周期，该功能支持应用程�
 停止调试，并切换到终端命令行，执行以下命令。
 
 `
-./mpdart scripts/help.dart
+dart scripts/help.dart
 `
 
 这将出现以下信息，`help.dart` 是 MPFlutter 的帮助中心，可帮助你完成应用的初始化和构建工作。
@@ -125,7 +125,7 @@ MPFlutter 通过 热重载 提供快速开发周期，该功能支持应用程�
 当开发完成后，你可以通过以下命令构建微信小程序产物。
 
 `
-./mpdart scripts/build_weapp.dart
+dart scripts/build_weapp.dart
 `
 
 构建完成后，产物位于 `build` 目录下。
