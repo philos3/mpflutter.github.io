@@ -1,6 +1,6 @@
 ---
 id: ui-assets
-title: 资源和图片
+title: 加载资源和图片
 ---
 
 MPFlutter 应用程序包含代码和 assets（也为资源）。资源是被打包到应用程序安装包中，可以在运行时访问的一种文件。常见的资源类型包括静态数据（例如 JSON 文件），配置文件，图标和图片（JPEG，WebP，GIF，动画 WebP / GIF，PNG，BMP 和 WBMP）。
@@ -34,7 +34,7 @@ assets 目录下的所有文件都会被打包至 web 和小程序包中，请�
 
 ## 加载图片
 
-使用 `Image` 可以加载并显示 assets 图片，以下是例子。
+使用 `Image` 可以加载并显示 assets 图片，以下是例子，`Image` 组件支持加载 `SVG` 格式图片，你不需要使用额外的依赖库。
 
 ```dart
 class MyHomePage extends StatelessWidget {

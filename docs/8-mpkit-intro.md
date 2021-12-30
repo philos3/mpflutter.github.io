@@ -64,3 +64,7 @@ Dialog API 提供可完全自定义的模态对框架弹出能力。
 ### MPWaterfall
 
 MPFlutter 通过 WaterfallView 和 SliderWaterfall 提供瀑布流布局支持，你可以通过以下方式使用该布局。
+
+### MPCircularProgressIndicator
+
+预定义的 Loading 指示器，其样式在 Web / 小程序 / Android 中为 Material 样式，在 iOS 中则为菊花样式。
