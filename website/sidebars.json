@@ -1,10 +1,31 @@
 {
   "docs": {
     "MPFlutter": ["concepts"],
-    "安装": ["install-env", "install-windows", "install-macos", "install-linux"],
-    "编写应用": ["first-app", "first-app-vs", "first-app-as", "first-app-weapp"],
-    "微信小程序": ["weapp-api", "weapp-view", "weapp-route-page", "weapp-subpackage"],
-    "界面和路由": ["ui-widgets", "ui-assets", "ui-router", "ui-animation", "ui-widgets-index"],
+    "安装": [
+      "install-env",
+      "install-windows",
+      "install-macos",
+      "install-linux"
+    ],
+    "编写应用": [
+      "first-app",
+      "first-app-vs",
+      "first-app-as",
+      "first-app-weapp"
+    ],
+    "微信小程序": [
+      "weapp-api",
+      "weapp-view",
+      "weapp-route-page",
+      "weapp-subpackage"
+    ],
+    "界面和路由": [
+      "ui-widgets",
+      "ui-assets",
+      "ui-router",
+      "ui-animation",
+      "ui-widgets-index"
+    ],
     "MPKit": [
       "mpkit-intro",
       "mp-scaffold",
@@ -26,6 +47,11 @@
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
     "外部工具库": ["lib-getx", "lib-bloc", "lib-provider", "lib-simplehtmlcss"],
+    "平台扩展": [
+      "platform-ext-intro",
+      "platform-ext-web",
+      "platform-ext-weapp"
+    ],
     "更多": ["core-team", "get-help", "upgrade-core"]
   },
   "api": {
