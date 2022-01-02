@@ -15,7 +15,7 @@ dependencies:
   shared_preferences: ^2.0.8
 ```
 
-然后在工程根目录下，通过命令行执行 `./mpdart pub get`。
+然后在工程根目录下，通过命令行执行 `./mpflutter packages get`。
 
 ### 保存本地缓存数据
 

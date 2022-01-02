@@ -22,7 +22,7 @@ git clone https://github.com/mpflutter/mpflutter_template.git awesome_project
 使用 VSCode 打开刚刚克隆得到的工程根目录，在命令行中执行以下命令。
 
 ```sh
-./mpdart pub get
+./mpflutter packages get
 ```
 
 > 注意，这里用的是 `./mpdart` 而不是 `dart`！
@@ -118,7 +118,7 @@ dart scripts/help.dart
 
 ......
 
-在命令行执行 `./mpdart pub get`。
+在命令行执行 `./mpflutter packages get`。
 
 ## 构建产物
 

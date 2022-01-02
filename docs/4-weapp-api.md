@@ -27,7 +27,7 @@ dependencies:
   universal_miniprogram_api: ^0.0.3
 ```
 
-使用命令行执行 `./mpdart pub get` 安装依赖。
+使用命令行执行 `./mpflutter packages get` 安装依赖。
 
 ## 发起调用
 

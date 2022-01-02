@@ -14,7 +14,7 @@ dependencies:
   http: ^0.13.1
 ```
 
-然后在工程根目录下，通过命令行执行 `./mpdart pub get`。
+然后在工程根目录下，通过命令行执行 `./mpflutter packages get`。
 
 ### 发起请求
 
@@ -62,7 +62,7 @@ dependencies:
   dio: ^4.0.0
 ```
 
-然后在工程根目录下，通过命令行执行 `./mpdart pub get`。
+然后在工程根目录下，通过命令行执行 `./mpflutter packages get`。
 
 ### 发起请求
 

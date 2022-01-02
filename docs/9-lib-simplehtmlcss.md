@@ -5,7 +5,7 @@ title: HTML 渲染库
 
 开发者可使用 `simple_html_css` 库，该库可以解析简单的 HTML 字符串，转化为 RichText 进行渲染。
 
-只需要添加 `simple_html_css` 到 `pubspec.yaml`，然后执行 `./mpdart pub get` 即可。
+只需要添加 `simple_html_css` 到 `pubspec.yaml`，然后执行 `./mpflutter packages get` 即可。
 
 ```yaml
 # pubspec.yaml

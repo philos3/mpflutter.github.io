@@ -15,7 +15,7 @@ dependencies:
   get: ^4.3.8
 ```
 
-在命令行执行 `./mpdart pub get`。
+在命令行执行 `./mpflutter packages get`。
 
 ## 基本用法
 

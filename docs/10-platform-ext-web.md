@@ -17,7 +17,7 @@ dart scripts/help.dart
 
 ![](assets/platform-ext-4.png)
 
-3. 如上图所示，添加依赖到 `pubspec.yaml`，然后执行 `./mpdart pub get`。
+3. 如上图所示，添加依赖到 `pubspec.yaml`，然后执行 `./mpflutter packages get`。
 
 ## 修改平台代码
 
