@@ -23,7 +23,7 @@ git clone https://github.com/mpflutter/mpflutter_template.git awesome_project
 ./mpflutter packages get
 ```
 
-> 注意，这里用的是 `./mpdart` 而不是 `dart`！
+> 注意，这里用的是 `./mpflutter` 而不是 `flutter`！
 
 ## 运行应用
 
