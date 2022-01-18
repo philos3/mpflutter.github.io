@@ -14,7 +14,7 @@ MPFlutter 的研究及其生态建设由以下成员负责，他们目前都是�
 <Member avatar="https://avatars.githubusercontent.com/u/5013664?v=4" 
         name="Pony Cui" 
         bio="Software Engineer, Focusing on Flutter."
-        location="Guangzhou City, China" 
+        location="Guangzhou, China" 
         github="https://github.com/ponycui" />
 
 <Divider />
@@ -22,5 +22,5 @@ MPFlutter 的研究及其生态建设由以下成员负责，他们目前都是�
 <Member avatar="https://avatars.githubusercontent.com/u/11241975?v=4" 
         name="LinQH" 
         bio="知易行难 积土成山"
-        location="Guangzhou City, China" 
+        location="Guangzhou, China" 
         github="https://github.com/ilinqh" />
