@@ -46,7 +46,13 @@
       "mp-circular-progress-indicator"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
-    "外部工具库": ["lib-getx", "lib-bloc", "lib-provider", "lib-simplehtmlcss"],
+    "外部工具库": [
+      "lib-getx",
+      "lib-bloc",
+      "lib-provider",
+      "lib-simplehtmlcss",
+      "lib-clip-board"
+    ],
     "平台扩展": [
       "platform-ext-intro",
       "platform-ext-web",
