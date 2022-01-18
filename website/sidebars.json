@@ -58,7 +58,7 @@
       "platform-ext-web",
       "platform-ext-weapp"
     ],
-    "更多": ["core-team", "get-help", "upgrade-core"]
+    "更多": ["core-team", "get-help", "upgrade-core", "support-us"]
   },
   "api": {
     "API": ["api-index"]

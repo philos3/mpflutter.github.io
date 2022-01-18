@@ -46,6 +46,7 @@ const siteConfig = {
       items: [
         { label: "文档", to: "docs/concepts" },
         { label: "寻求帮助", to: "docs/get-help" },
+        { label: "支持我们", to: "docs/support-us" },
         {
           label: "GitHub",
           href: "https://github.com/mpflutter/mpflutter",
