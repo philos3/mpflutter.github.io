@@ -60,7 +60,7 @@ MPFlutter 将坚持以下原则：
 
 ![](assets/zan-shang.png)
 
-> 感谢这些朋友的支持：[badboy-tian](https://github.com/badboy-tian)、Jackie
+> 感谢这些朋友的支持：[badboy-tian](https://github.com/badboy-tian)、Jackie、[LondonX](https://github.com/LondonX)
 
 ### 顶级赞助
 
