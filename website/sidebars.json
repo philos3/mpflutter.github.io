@@ -43,7 +43,8 @@
       "mp-picker",
       "custom-paint",
       "mp-waterfall",
-      "mp-circular-progress-indicator"
+      "mp-circular-progress-indicator",
+      "mp-refresh-indicator"
     ],
     "数据调用和后端": ["data-network", "shared-preferences"],
     "外部工具库": [

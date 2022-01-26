@@ -68,3 +68,7 @@ MPFlutter 通过 WaterfallView 和 SliderWaterfall 提供瀑布流布局支持�
 ### MPCircularProgressIndicator
 
 预定义的 Loading 指示器，其样式在 Web / 小程序 / Android 中为 Material 样式，在 iOS 中则为菊花样式。
+
+### MPRefreshIndicator
+
+可用于替换 Flutter 中的 RefreshIndicator，可为 ListView / GridView / CustomScrollView 添加一个下拉刷新指示器。
