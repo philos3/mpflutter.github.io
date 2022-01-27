@@ -12,7 +12,7 @@ MPFlutter 对 GetX 作了一些改动，请通过以下方式添加依赖。
 ```yaml
 # pubspec.yaml
 dependencies:
-  get: ^4.3.8
+  get: ^4.3.9
 ```
 
 在命令行执行 `./mpflutter packages get`。
