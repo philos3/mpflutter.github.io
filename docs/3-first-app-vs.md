@@ -104,7 +104,7 @@ dart scripts/help.dart
 
 ......
 
-在命令行执行 `./mpflutter packages get`。
+在命令行执行 `./mpflutter packages get`。注意需要使用以管理员身份运行。
 
 ## 构建产物
 
